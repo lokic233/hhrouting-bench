@@ -1,0 +1,57 @@
+{"label":"Mooncake repo and trace","url":"https://github.com/kvcache-ai/Mooncake","agent":"F"}
+{"label":"Mooncake FAST25 paper","url":"https://www.usenix.org/system/files/fast25-qin.pdf","agent":"F"}
+{"label":"BurstGPT repo","url":"https://github.com/HPMLL/BurstGPT","agent":"F"}
+{"label":"BurstGPT paper","url":"https://arxiv.org/abs/2401.17644","agent":"F"}
+{"label":"Azure LLM Inference Dataset 2024","url":"https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md","agent":"F"}
+{"label":"Azure LLM Inference Dataset 2023","url":"https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md","agent":"F"}
+{"label":"WildChat-1M dataset","url":"https://huggingface.co/datasets/allenai/WildChat-1M","agent":"F"}
+{"label":"LMSYS-Chat-1M dataset","url":"https://huggingface.co/datasets/lmsys/lmsys-chat-1m","agent":"F"}
+{"label":"OpenAssistant OASST1 dataset","url":"https://huggingface.co/datasets/OpenAssistant/oasst1","agent":"F"}
+{"label":"MMLU dataset","url":"https://huggingface.co/datasets/cais/mmlu","agent":"F"}
+{"label":"MMLU-Pro dataset","url":"https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro","agent":"F"}
+{"label":"GPQA dataset","url":"https://huggingface.co/datasets/Idavidrein/gpqa","agent":"F"}
+{"label":"BBH mirror","url":"https://huggingface.co/datasets/maveriq/bigbenchhard","agent":"F"}
+{"label":"HumanEval repo","url":"https://github.com/openai/human-eval","agent":"F"}
+{"label":"MBPP dataset","url":"https://huggingface.co/datasets/google-research-datasets/mbpp","agent":"F"}
+{"label":"GSM8K dataset","url":"https://huggingface.co/datasets/openai/gsm8k","agent":"F"}
+{"label":"MATH-500 dataset","url":"https://huggingface.co/datasets/HuggingFaceH4/MATH-500","agent":"F"}
+{"label":"SWE-bench Verified dataset","url":"https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified","agent":"F"}
+{"label":"RAGBench dataset","url":"https://huggingface.co/datasets/rungalileo/ragbench","agent":"F"}
+{"label":"LongBench v2 dataset","url":"https://huggingface.co/datasets/THUDM/LongBench-v2","agent":"F"}
+{"label":"L-Eval dataset","url":"https://huggingface.co/datasets/L4NLP/LEval","agent":"F"}
+{"label":"RepoBench-P dataset","url":"https://huggingface.co/datasets/tianyang/repobench-p","agent":"F"}
+{"label":"RepoBench Python v1.1 dataset","url":"https://huggingface.co/datasets/tianyang/repobench_python_v1.1","agent":"F"}
+{"label":"arXiv summarization dataset","url":"https://huggingface.co/datasets/ccdv/arxiv-summarization","agent":"F"}
+{"label":"PubMed summarization dataset","url":"https://huggingface.co/datasets/ccdv/pubmed-summarization","agent":"F"}
+{"label":"GovReport summarization dataset","url":"https://huggingface.co/datasets/ccdv/govreport-summarization","agent":"F"}
+{"label":"TriviaQA dataset","url":"https://huggingface.co/datasets/mandarjoshi/trivia_qa","agent":"F"}
+{"label":"MultiNews dataset","url":"https://huggingface.co/datasets/alexfabbri/multi_news","agent":"F"}
+{"label":"GAIA dataset","url":"https://huggingface.co/datasets/gaia-benchmark/GAIA","agent":"F"}
+{"label":"WorkArena repo","url":"https://github.com/ServiceNow/WorkArena","agent":"F"}
+{"label":"WorkArena instances dataset","url":"https://huggingface.co/datasets/ServiceNow/WorkArena-Instances","agent":"F"}
+{"label":"OSWorld repo","url":"https://github.com/xlang-ai/OSWorld","agent":"F"}
+{"label":"OSWorld v2 tasks dataset","url":"https://huggingface.co/datasets/xlangai/osworld_v2_tasks","agent":"F"}
+{"label":"WebArena repo","url":"https://github.com/web-arena-x/webarena","agent":"F"}
+{"label":"VisualWebArena repo","url":"https://github.com/web-arena-x/visualwebarena","agent":"F"}
+{"label":"ToolBench repo","url":"https://github.com/OpenBMB/ToolBench","agent":"F"}
+{"label":"AppWorld repo","url":"https://github.com/StonyBrookNLP/appworld","agent":"F"}
+{"label":"AppWorld HF task mirror","url":"https://huggingface.co/datasets/LukaszTP/AppWorld-Tasks","agent":"F"}
+{"label":"ShareGPT Vicuna unfiltered dataset","url":"https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered","agent":"F"}
+{"label":"vLLM benchmarks README","url":"https://github.com/vllm-project/vllm/blob/main/benchmarks/README.md","agent":"F"}
+{"label":"UltraChat 200k dataset","url":"https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k","agent":"F"}
+{"label":"OpenBMB UltraChat dataset","url":"https://huggingface.co/datasets/openbmb/UltraChat","agent":"F"}
+{"label":"BrowserArena GitHub URL checked by peer table","url":"https://github.com/web-arena-x/BrowserArena","agent":"F"}
+{"label":"BrowserArena arXiv page","url":"https://arxiv.org/abs/2510.02418","agent":"F"}
+{"label":"Alibaba GenTD26 trace","url":"https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI","agent":"F"}
+{"label":"SWE-Lancer original repo","url":"https://github.com/openai/SWELancer-Benchmark","agent":"F"}
+{"label":"OpenAI preparedness repo","url":"https://github.com/openai/preparedness","agent":"F"}
+{"label":"2WikiMultihopQA repo","url":"https://github.com/Alab-NII/2wikimultihop","agent":"F"}
+{"label":"HotpotQA dataset","url":"https://huggingface.co/datasets/hotpotqa/hotpot_qa","agent":"F"}
+{"label":"Qasper dataset","url":"https://huggingface.co/datasets/allenai/qasper","agent":"F"}
+{"label":"HF API WildChat metadata","url":"https://huggingface.co/api/datasets/allenai/WildChat-1M","agent":"F"}
+{"label":"HF API LMSYS metadata","url":"https://huggingface.co/api/datasets/lmsys/lmsys-chat-1m","agent":"F"}
+{"label":"HF API GAIA metadata","url":"https://huggingface.co/api/datasets/gaia-benchmark/GAIA","agent":"F"}
+{"label":"HF API GPQA metadata","url":"https://huggingface.co/api/datasets/Idavidrein/gpqa","agent":"F"}
+{"label":"HF API WorkArena instances metadata","url":"https://huggingface.co/api/datasets/ServiceNow/WorkArena-Instances","agent":"F"}
+{"label":"HF API MMLU metadata","url":"https://huggingface.co/api/datasets/cais/mmlu","agent":"F"}
+{"label":"HF API OpenAssistant metadata","url":"https://huggingface.co/api/datasets/OpenAssistant/oasst1","agent":"F"}
