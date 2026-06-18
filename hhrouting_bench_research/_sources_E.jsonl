@@ -1,0 +1,53 @@
+{"label": "WildChat-1M chat dataset (conversation_hash + per-turn timestamp + hashed_ip)", "url": "https://huggingface.co/datasets/allenai/WildChat-1M"}
+{"label": "LMSYS-Chat-1M gated chat dataset (conversation_id, OpenAI-API format)", "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"}
+{"label": "LMSYS Chatbot Arena Conversations (tstamp + multi-turn text)", "url": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations"}
+{"label": "BurstGPT real ChatGPT/GPT-4 trace (Timestamp + Session ID + tokens + Log Type)", "url": "https://github.com/HPMLL/BurstGPT"}
+{"label": "Azure Public Dataset (LLM Inference Trace 2023/2024: TIMESTAMP+ContextTokens+GeneratedTokens)", "url": "https://github.com/Azure/AzurePublicDataset"}
+{"label": "Azure Functions Trace 2019 (arrival-process burstiness donor)", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md"}
+{"label": "ShareGPT Vicuna unfiltered (vLLM benchmark payload bank; no arrivals)", "url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered"}
+{"label": "Mooncake Trace (timestamp+input_length+output_length+hash_ids prefix-cache blocks)", "url": "https://github.com/kvcache-ai/Mooncake"}
+{"label": "Alibaba clusterdata GenAI GenTD26 (lora_request_trace.csv LoRA adapter IDs)", "url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI"}
+{"label": "RAGBench (question + 4 documents + response; shared-doc prefix reuse)", "url": "https://huggingface.co/datasets/rungalileo/ragbench"}
+{"label": "HotpotQA (10 distractor passages + short answer)", "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa"}
+{"label": "MuSiQue (20-paragraph multi-hop context)", "url": "https://github.com/StonyBrookNLP/musique"}
+{"label": "Qasper (full paper full_text; same paper across multiple questions)", "url": "https://huggingface.co/datasets/allenai/qasper"}
+{"label": "TriviaQA (rc subset multi-doc evidence)", "url": "https://huggingface.co/datasets/mandarjoshi/trivia_qa"}
+{"label": "2WikiMultihopQA (Dropbox-only distribution)", "url": "https://github.com/Alab-NII/2wikimultihop"}
+{"label": "LongBench v2 (context up to 2M words; MCQ single-letter answer)", "url": "https://huggingface.co/datasets/THUDM/LongBench-v2"}
+{"label": "LongBench v2 paper", "url": "https://arxiv.org/abs/2412.15204"}
+{"label": "LongBench (avg 5k-15k words; LSHT 22337 words)", "url": "https://huggingface.co/datasets/THUDM/LongBench"}
+{"label": "L-Eval (3k-200k tokens per input)", "url": "https://github.com/OpenLMLab/LEval"}
+{"label": "NarrativeQA (~41k-token full book/script per example)", "url": "https://huggingface.co/datasets/deepmind/narrativeqa"}
+{"label": "Natural Questions (full Wikipedia page per example)", "url": "https://huggingface.co/datasets/google-research-datasets/natural_questions"}
+{"label": "arXiv summarization (~6038 ws-tok article / ~299 ws-tok abstract MEASURED)", "url": "https://huggingface.co/datasets/ccdv/arxiv-summarization"}
+{"label": "PubMed summarization (~3043 ws-tok article / ~215 ws-tok abstract MEASURED)", "url": "https://huggingface.co/datasets/ccdv/pubmed-summarization"}
+{"label": "GovReport summarization (very long reports + long summaries)", "url": "https://huggingface.co/datasets/ccdv/govreport-summarization"}
+{"label": "MultiNews (multi-doc cluster summarization; LILY LAB non-commercial license)", "url": "https://huggingface.co/datasets/alexfabbri/multi_news"}
+{"label": "BookSum (book/chapter-level long summarization)", "url": "https://huggingface.co/datasets/kmfoda/booksum"}
+{"label": "RepoBench (context list path/snippet/tokenized_snippet; next-line target 10-150 tok MEASURED)", "url": "https://huggingface.co/datasets/tianyang/repobench-c"}
+{"label": "DevEval (source+deps tarball; no license)", "url": "https://github.com/seketeam/DevEval"}
+{"label": "SWE-bench (issue + repo context; agentic harness)", "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench"}
+{"label": "SWE-bench Verified (500 human-verified deterministic tasks)", "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"}
+{"label": "SWE-Lancer (archived original repo; eval moved to openai/preparedness)", "url": "https://github.com/openai/SWELancer-Benchmark"}
+{"label": "ToolBench (469585 real API calls; 120k+ DFSDT static trajectories)", "url": "https://github.com/OpenBMB/ToolBench"}
+{"label": "AppWorld tasks HF mirror (num_api_calls MEASURED 30-101)", "url": "https://huggingface.co/datasets/LukaszTP/AppWorld-Tasks"}
+{"label": "AppWorld environment (457 APIs; ReAct trajectories)", "url": "https://github.com/StonyBrookNLP/appworld"}
+{"label": "tau-bench (user-simulator LLM + historical_trajectories)", "url": "https://github.com/sierra-research/tau-bench"}
+{"label": "AgentBench (8 Docker environments; per-task tool loops)", "url": "https://github.com/THUDM/AgentBench"}
+{"label": "WebArena (812 tasks; DOM/AX-tree obs; 170 Playwright recordings)", "url": "https://github.com/web-arena-x/webarena"}
+{"label": "VisualWebArena (910 multimodal tasks; image+text)", "url": "https://github.com/web-arena-x/visualwebarena"}
+{"label": "OSWorld (desktop OS automation in VM; multimodal screenshots)", "url": "https://github.com/xlang-ai/OSWorld"}
+{"label": "WorkArena (gated; live ServiceNow instance)", "url": "https://github.com/ServiceNow/WorkArena"}
+{"label": "MMLU (14042 4-choice MCQ test rows)", "url": "https://huggingface.co/datasets/cais/mmlu"}
+{"label": "MMLU-Pro (12102 10-option MCQ + cot_content)", "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro"}
+{"label": "GSM8K (8.5K grade-school problems w/ CoT; repo archived Apr 2026)", "url": "https://huggingface.co/datasets/openai/gsm8k"}
+{"label": "MATH-500 mirror (short statement, long stepwise solution)", "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500"}
+{"label": "HumanEval (164 single-shot function-completion prompts; input 50-300 tok MEASURED)", "url": "https://github.com/openai/human-eval"}
+{"label": "MBPP (974/427 short NL programming prompts; 30-200 tok MEASURED)", "url": "https://huggingface.co/datasets/google-research-datasets/mbpp"}
+{"label": "BBH BIG-Bench-Hard (6511 rows / 23 tasks; shared CoT exemplar prefix)", "url": "https://huggingface.co/datasets/lukaemon/bbh"}
+{"label": "Big-Bench (200+ JSON tasks; archived Apr 2026)", "url": "https://github.com/google/BIG-bench"}
+{"label": "HELM (heterogeneous orchestrator; maintenance Jun 2026)", "url": "https://github.com/stanford-crfm/helm"}
+{"label": "EleutherAI lm-evaluation-harness (60+ benchmarks; Jinja2 prompt templates)", "url": "https://github.com/EleutherAI/lm-evaluation-harness"}
+{"label": "LiveCodeBench (single-shot competitive-programming statements)", "url": "https://github.com/LiveCodeBench/LiveCodeBench"}
+{"label": "BigCodeBench (Complete + Instruct prompt variants)", "url": "https://huggingface.co/datasets/bigcode/bigcodebench"}
+{"label": "Mooncake FAST25 paper (prefix-cache trace + disaggregated serving)", "url": "https://www.usenix.org/system/files/fast25-qin.pdf"}

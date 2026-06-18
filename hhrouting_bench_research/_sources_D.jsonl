@@ -1,0 +1,65 @@
+{"label": "Mooncake serving trace (timestamp+input_length+output_length+hash_ids prefix cache)", "url": "https://github.com/kvcache-ai/Mooncake"}
+{"label": "Mooncake FAST25 paper", "url": "https://www.usenix.org/system/files/fast25-qin.pdf"}
+{"label": "BurstGPT real ChatGPT/GPT-4 trace (Timestamp+Session ID+tokens+Log Type)", "url": "https://github.com/HPMLL/BurstGPT"}
+{"label": "BurstGPT paper", "url": "https://arxiv.org/abs/2401.17644"}
+{"label": "Azure LLM Inference Trace 2024 (TIMESTAMP+ContextTokens+GeneratedTokens)", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md"}
+{"label": "Azure LLM Inference Trace 2023 (Splitwise)", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md"}
+{"label": "Azure Public Dataset repo (CC-BY-4.0 data / MIT code)", "url": "https://github.com/Azure/AzurePublicDataset"}
+{"label": "Azure Functions Trace 2019 (arrival-process / burstiness donor, no tokens)", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md"}
+{"label": "LMSYS Chatbot Arena Conversations (tstamp + multi-turn text + session)", "url": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations"}
+{"label": "WildChat-1M (per-turn timestamps + hashed_ip tenant + conversation_hash session)", "url": "https://huggingface.co/datasets/allenai/WildChat-1M"}
+{"label": "Alibaba clusterdata GenAI trace v2026 (lora_request_trace.csv; Stable Diffusion not LLM)", "url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI"}
+{"label": "LMSYS-Chat-1M (gated; conversation_id session; OpenAI-API JSON)", "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"}
+{"label": "ToolBench (469585 real API calls; static tool-call trajectories)", "url": "https://github.com/OpenBMB/ToolBench"}
+{"label": "ToolBench HF mirror (api_list, query_id, answer trees with Action nodes)", "url": "https://huggingface.co/datasets/Adorg/ToolBench"}
+{"label": "tau-bench (historical_trajectories + user simulator; deprecated->tau2)", "url": "https://github.com/sierra-research/tau-bench"}
+{"label": "AppWorld (task_id+datetime+num_api_calls; baseline ReAct trajectories)", "url": "https://github.com/StonyBrookNLP/appworld"}
+{"label": "AppWorld HF tasks mirror", "url": "https://huggingface.co/datasets/LukaszTP/AppWorld-Tasks"}
+{"label": "ShareGPT vLLM benchmark_serving payload source (Poisson arrivals synthesized)", "url": "https://github.com/vllm-project/vllm/blob/main/benchmarks/README.md"}
+{"label": "ShareGPT_Vicuna_unfiltered dataset", "url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered"}
+{"label": "RAGBench (question+documents+response; cc-by-4.0)", "url": "https://huggingface.co/datasets/rungalileo/ragbench"}
+{"label": "LongBench (long inputs, eval scripts; HF viewer disabled)", "url": "https://github.com/THUDM/LongBench"}
+{"label": "LongBench v2 (503 MCQ, context up to 2M words)", "url": "https://huggingface.co/datasets/zai-org/LongBench-v2"}
+{"label": "L-Eval (3k-200k tokens, gold answers visible; GPL-3.0)", "url": "https://huggingface.co/datasets/L4NLP/LEval"}
+{"label": "SWE-bench Verified (problem_statement+patch+created_at; agentic harness for loop)", "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified"}
+{"label": "SWE-bench repo/harness", "url": "https://github.com/princeton-nlp/SWE-bench"}
+{"label": "SWE-bench Pro (731 rows; public)", "url": "https://github.com/scaleapi/SWE-bench_Pro-os"}
+{"label": "WebArena (812 task configs + released trajectories; needs-live-env)", "url": "https://github.com/web-arena-x/webarena"}
+{"label": "VisualWebArena (910 tasks + multimodal trajectories)", "url": "https://github.com/web-arena-x/visualwebarena"}
+{"label": "NarrativeQA (full-story long contexts)", "url": "https://huggingface.co/datasets/deepmind/narrativeqa"}
+{"label": "Qasper (full-paper contexts; cc-by-4.0)", "url": "https://huggingface.co/datasets/allenai/qasper"}
+{"label": "HotpotQA (10-passage distractor contexts; prefix reuse)", "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa"}
+{"label": "MuSiQue (20-paragraph multi-hop)", "url": "https://github.com/StonyBrookNLP/musique"}
+{"label": "Natural Questions (full Wikipedia page contexts; 144.87GB)", "url": "https://huggingface.co/datasets/google-research-datasets/natural_questions"}
+{"label": "TriviaQA (evidence docs; license unknown)", "url": "https://huggingface.co/datasets/mandarjoshi/trivia_qa"}
+{"label": "UltraChat (synthetic chat; model-shaped distributions)", "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k"}
+{"label": "OpenAssistant oasst1 (tree structure; path-flatten needed)", "url": "https://huggingface.co/datasets/OpenAssistant/oasst1"}
+{"label": "LiveCodeBench (prompts on HF; outputs need generation)", "url": "https://github.com/LiveCodeBench/LiveCodeBench"}
+{"label": "RepoBench-P (repo-context prefill; deprecated dataset script)", "url": "https://huggingface.co/datasets/tianyang/repobench-p"}
+{"label": "DevEval (prefill needs tar reassembly; no license on GitHub)", "url": "https://github.com/seketeam/DevEval"}
+{"label": "BigCodeBench (outputs require running eval)", "url": "https://github.com/bigcode-project/bigcodebench"}
+{"label": "Terminal-Bench (agentic terminal; harness to extract traces)", "url": "https://github.com/laude-institute/terminal-bench"}
+{"label": "arXiv summarization (long-doc prefill)", "url": "https://huggingface.co/datasets/ccdv/arxiv-summarization"}
+{"label": "PubMed summarization", "url": "https://huggingface.co/datasets/ccdv/pubmed-summarization"}
+{"label": "GovReport summarization (launch mirror cc-by-4.0)", "url": "https://huggingface.co/datasets/ccdv/govreport-summarization"}
+{"label": "MultiNews (multi-doc; non-commercial license)", "url": "https://huggingface.co/datasets/alexfabbri/multi_news"}
+{"label": "BookSum (book/chapter extreme prefill; BSD-3)", "url": "https://huggingface.co/datasets/kmfoda/booksum"}
+{"label": "HumanEval (single-shot function completion; MIT)", "url": "https://github.com/openai/human-eval"}
+{"label": "MBPP (short single-shot; cc-by-4.0)", "url": "https://huggingface.co/datasets/google-research-datasets/mbpp"}
+{"label": "HELM (scenario configs; maintenance mode June 1 2026)", "url": "https://github.com/stanford-crfm/helm"}
+{"label": "EleutherAI lm-evaluation-harness (Jinja2 prompt templates)", "url": "https://github.com/EleutherAI/lm-evaluation-harness"}
+{"label": "MMLU (short 4-choice MCQ; MIT)", "url": "https://huggingface.co/datasets/cais/mmlu"}
+{"label": "MMLU-Pro (10-option MCQ + cot_content)", "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro"}
+{"label": "GSM8K (CoT solutions; repo archived Apr 8 2026)", "url": "https://github.com/openai/grade-school-math"}
+{"label": "MATH-500 verified mirror", "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500"}
+{"label": "Big-Bench (200+ JSON tasks; archived Apr 17 2026)", "url": "https://github.com/google/BIG-bench"}
+{"label": "BBH HF mirror (MIT, input/target; source repo 404)", "url": "https://huggingface.co/datasets/maveriq/bigbenchhard"}
+{"label": "AgentBench (8 Docker envs; no sample trajectories)", "url": "https://github.com/THUDM/AgentBench"}
+{"label": "OSWorld (VM required; gated V2 task dataset)", "url": "https://github.com/xlang-ai/OSWorld"}
+{"label": "WorkArena (live ServiceNow + gated instances)", "url": "https://github.com/ServiceNow/WorkArena"}
+{"label": "GAIA (gated contact-sharing; test answers private)", "url": "https://huggingface.co/datasets/gaia-benchmark/GAIA"}
+{"label": "MiniWoB++ (Selenium live env; single-step)", "url": "https://github.com/Farama-Foundation/miniwob-plusplus"}
+{"label": "SWE-Lancer (archived; preparedness; gating unconfirmed)", "url": "https://github.com/openai/preparedness"}
+{"label": "2WikiMultihopQA (Dropbox-only, no HF)", "url": "https://github.com/Alab-NII/2wikimultihop"}
+{"label": "GPQA (gated; no-reshare agreement)", "url": "https://huggingface.co/datasets/Idavidrein/gpqa"}
+{"label": "BrowserArena (404 - no public repo/data; arXiv only)", "url": "https://arxiv.org/abs/2510.02418"}
