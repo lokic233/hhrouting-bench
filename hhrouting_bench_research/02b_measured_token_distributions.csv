@@ -20,4 +20,5 @@ RepoBench-py,tianyang/repobench_python_v1.1,cross_file_first,test,cl100k_base,20
 SWE-bench-Lite,SWE-bench/SWE-bench_Lite,,test,cl100k_base,300,49,264,849,2301,6939,440,206,437,886,1087,259
 SWE-bench-Verified,SWE-bench/SWE-bench_Verified,,test,cl100k_base,200,35,268,738,2164,2407,373,220,728,2275,4049,363
 TriviaQA-rc,mandarjoshi/trivia_qa,rc.nocontext,validation,cl100k_base,300,6,14,20,25,26,14,166,497,1026,1744,231
+WildChat-1M,allenai/WildChat-1M,shard0,train,cl100k_base,59589,0,19,207,2019,8111,118,275,723,1454,4050,346
 arXiv-sum,ccdv/arxiv-summarization,section,test,cl100k_base,120,1039,6516,13858,21108,26625,7307,182,305,409,433,195

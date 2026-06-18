@@ -1,0 +1,75 @@
+{
+  "dataset": "WildChat-1M (shard 0)",
+  "n_conversations": 20000,
+  "tokenizer": "cl100k_base",
+  "source_url": "https://huggingface.co/datasets/allenai/WildChat-1M",
+  "license": "ODC-BY",
+  "fields_present": [
+    "timestamp",
+    "hashed_ip(tenant)",
+    "model",
+    "per-turn role",
+    "country",
+    "state",
+    "language"
+  ],
+  "user_message_input_tokens": {
+    "n": 59589,
+    "min": 0,
+    "p50": 19,
+    "p90": 207,
+    "p99": 2019,
+    "max": 8111,
+    "mean": 118
+  },
+  "assistant_message_output_tokens": {
+    "n": 59589,
+    "min": 1,
+    "p50": 275,
+    "p90": 723,
+    "p99": 1454,
+    "max": 4050,
+    "mean": 346
+  },
+  "prefill_context_tokens_per_assistant_turn": {
+    "n": 59589,
+    "min": 0,
+    "p50": 522,
+    "p90": 2825,
+    "p99": 5605,
+    "max": 8152,
+    "mean": 1011
+  },
+  "full_session_token_total_KV_highwater": {
+    "n": 20000,
+    "min": 4,
+    "p50": 844,
+    "p90": 3888,
+    "p99": 7446,
+    "max": 8192,
+    "mean": 1383
+  },
+  "turns_per_conversation": {
+    "n": 20000,
+    "min": 2,
+    "p50": 4,
+    "p90": 14,
+    "p99": 30,
+    "max": 110,
+    "mean": 6
+  },
+  "unique_tenants_hashed_ip": 5426,
+  "top_1pct_tenants_share_of_convs_pct": 21.3,
+  "top_models": {
+    "gpt-3.5-turbo-0301": 12074,
+    "gpt-4-0314": 7926
+  },
+  "top_languages": {
+    "English": 9464,
+    "Chinese": 5732,
+    "Russian": 1729,
+    "French": 502,
+    "Spanish": 353,
+    "Italian": 318
+  }
+}

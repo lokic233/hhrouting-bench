@@ -558,6 +558,63 @@
     "secs": 10.3
   },
   {
+    "key": "WildChat-1M",
+    "hf_id": "allenai/WildChat-1M",
+    "config": "shard0",
+    "split": "train",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "input_tokens": {
+      "n": 59589,
+      "min": 0,
+      "p50": 19,
+      "p90": 207,
+      "p99": 2019,
+      "max": 8111,
+      "mean": 118
+    },
+    "output_tokens": {
+      "n": 59589,
+      "min": 1,
+      "p50": 275,
+      "p90": 723,
+      "p99": 1454,
+      "max": 4050,
+      "mean": 346
+    },
+    "extra": {
+      "prefill_context_per_turn": {
+        "n": 59589,
+        "min": 0,
+        "p50": 522,
+        "p90": 2825,
+        "p99": 5605,
+        "max": 8152,
+        "mean": 1011
+      },
+      "session_KV_highwater": {
+        "n": 20000,
+        "min": 4,
+        "p50": 844,
+        "p90": 3888,
+        "p99": 7446,
+        "max": 8192,
+        "mean": 1383
+      },
+      "turns_per_conversation": {
+        "n": 20000,
+        "min": 2,
+        "p50": 4,
+        "p90": 14,
+        "p99": 30,
+        "max": 110,
+        "mean": 6
+      },
+      "unique_tenants": 5426,
+      "top1pct_tenant_share_pct": 21.3
+    }
+  },
+  {
     "key": "arXiv-sum",
     "hf_id": "ccdv/arxiv-summarization",
     "config": "section",
