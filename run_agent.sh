@@ -22,16 +22,19 @@ Write ALL deliverables to: $RESEARCH
 cd "$RESEARCH" || exit 9
 echo "[$(date -u +%H:%M:%SZ)] START agent=$AGENT backend=$BACKEND" >> "$LOG"
 
+# Per-agent safety timeout (generous — thorough research is the goal; this only kills a truly hung proc).
+TO="${AGENT_TIMEOUT:-4500}"   # 75 min default
+
 case "$BACKEND" in
   claude-*|opus*|sonnet*)
-    claude --dangerously-enable-internet-mode --allow-dangerously-skip-permissions \
+    timeout "$TO" claude --dangerously-enable-internet-mode --allow-dangerously-skip-permissions \
       --model "$BACKEND" -p "$PROMPT" </dev/null >>"$LOG" 2>&1 ;;
   codex*)
     # codex default model (the explicit 5.5 string 421s on this gateway); full access for file writes.
-    codex --dangerously-bypass-approvals-and-sandbox exec --skip-git-repo-check \
+    timeout "$TO" codex --dangerously-bypass-approvals-and-sandbox exec --skip-git-repo-check \
       "$PROMPT" </dev/null >>"$LOG" 2>&1 ;;
   gemini*)
-    OTEL_SDK_DISABLED=true gemini --dangerously-enable-internet-mode --yolo \
+    OTEL_SDK_DISABLED=true timeout "$TO" gemini --dangerously-enable-internet-mode --yolo \
       -p "$PROMPT" </dev/null >>"$LOG" 2>&1 ;;
   *)
     echo "ERROR: unknown backend '$BACKEND'" >> "$LOG"; exit 4 ;;

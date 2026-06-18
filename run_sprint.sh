@@ -36,6 +36,11 @@ run_wave(){ # label "AGENT BACKEND TASKFILE" ...
   echo "[$(ts)] wave '$label' pids: ${pids[*]} — waiting..."
   for p in "${pids[@]}"; do wait "$p"; done
   banner "WAVE: $label DONE"
+  # research-os principle: commit+push after every wave so no deliverable is ever lost.
+  ( cd "$INSTANCE" && git add -A && \
+    git -c user.name="Loki Chen" -c user.email="dengcchi@meta.com" \
+      commit -q -m "sprint: wave [$label] deliverables" 2>/dev/null && \
+    timeout 40 git push origin main 2>&1 | tail -1 ) || echo "[$(ts)] (nothing to commit for $label)"
 }
 
 banner "HHROUTING-BENCH SPRINT START"
