@@ -1,0 +1,32 @@
+{"label": "AzurePublicDataset repo", "url": "https://github.com/Azure/AzurePublicDataset"}
+{"label": "Azure LLM inference dataset note", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md"}
+{"label": "LMSYS-Chat-1M dataset card", "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"}
+{"label": "LMSYS-Chat-1M paper page", "url": "https://huggingface.co/papers/2309.11998"}
+{"label": "WildChat-1M dataset card", "url": "https://huggingface.co/datasets/allenai/WildChat-1M"}
+{"label": "WildChat paper", "url": "https://arxiv.org/abs/2405.01470"}
+{"label": "SWE-bench Verified dataset card", "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified"}
+{"label": "SWE-bench site", "url": "https://www.swebench.com/"}
+{"label": "ToolBench official repo", "url": "https://github.com/OpenBMB/ToolBench"}
+{"label": "ToolBench HF mirror", "url": "https://huggingface.co/datasets/Adorg/ToolBench"}
+{"label": "ToolBench demo query file", "url": "https://huggingface.co/datasets/Adorg/ToolBench/resolve/main/instruction/inference_query_demo.json"}
+{"label": "ToolBench sample answer tree", "url": "https://huggingface.co/datasets/Adorg/ToolBench/resolve/main/answer/G1_answer/10015_ChatGPT_DFS_woFilter_w2.json"}
+{"label": "tau-bench repo", "url": "https://github.com/sierra-research/tau-bench"}
+{"label": "tau2-bench repo", "url": "https://github.com/sierra-research/tau2-bench"}
+{"label": "WebArena repo", "url": "https://github.com/web-arena-x/webarena"}
+{"label": "WebArena Verified repo", "url": "https://github.com/ServiceNow/webarena-verified"}
+{"label": "WebArena Verified PyPI", "url": "https://pypi.org/project/webarena-verified/"}
+{"label": "OSWorld repo", "url": "https://github.com/xlang-ai/OSWorld"}
+{"label": "OSWorld project site", "url": "https://os-world.github.io/"}
+{"label": "OSWorld V2 gated tasks HF", "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks"}
+{"label": "RAGBench dataset card", "url": "https://huggingface.co/datasets/rungalileo/ragbench"}
+{"label": "LongBench v1 dataset card", "url": "https://huggingface.co/datasets/THUDM/LongBench"}
+{"label": "LongBench v2 dataset card", "url": "https://huggingface.co/datasets/zai-org/LongBench-v2"}
+{"label": "LongBench v2 project page", "url": "https://longbench2.github.io"}
+{"label": "LongBench v2 arXiv", "url": "https://arxiv.org/abs/2412.15204"}
+{"label": "RepoBench-P dataset card", "url": "https://huggingface.co/datasets/tianyang/repobench-p"}
+{"label": "RepoBench repo", "url": "https://github.com/Leolty/repobench"}
+{"label": "RepoBench arXiv", "url": "https://arxiv.org/abs/2306.03091"}
+{"label": "AppWorld repo", "url": "https://github.com/StonyBrookNLP/appworld"}
+{"label": "AppWorld homepage", "url": "https://appworld.dev/"}
+{"label": "AppWorld PyPI", "url": "https://pypi.org/project/appworld/"}
+{"label": "AppWorld tasks HF mirror", "url": "https://huggingface.co/datasets/LukaszTP/AppWorld-Tasks"}

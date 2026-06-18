@@ -1,0 +1,1 @@
+- 2026-06-18T03:24:15-07:00: completed payload schema inventory, sample payload JSONL, sampling blockers, and Agent C sources sidecar.
