@@ -1,0 +1,113 @@
+{"url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m", "label": "LMSYS-Chat-1M HF card (gated, custom license, 1M convs, 69.5/214.5 avg prompt/response tokens, 2.0 avg turns, 154 langs)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/allenai/WildChat-1M", "label": "WildChat-1M HF card (odc-by, ~838k rows, turn field, multilingual)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/allenai/WildChat-1M/blob/main/README.md", "label": "WildChat-1M README (ODC-BY, not gated; full version gated; 837989 examples; updated 2024-10-17)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered", "label": "ShareGPT Vicuna unfiltered HF card (apache-2.0, ~53k convs, 2048-token chunks, English-only)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/RyokoAI/ShareGPT52K", "label": "ShareGPT52K HF card (cc0-1.0, ~52k/90k convs, viewer error)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/stingning/ultrachat", "label": "UltraChat (stingning) HF card (mit, ~949k dialogues, ChatGPT-generated)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k", "label": "UltraChat 200k HF card (mit, 515311 rows, user/assistant roles)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k/commits/main", "label": "UltraChat 200k commit history (top commit Oct 16 2024)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/OpenAssistant/oasst1", "label": "oasst1 HF card (apache-2.0, 88.8k rows, message-tree structure)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/OpenAssistant/oasst2", "label": "oasst2 HF card (apache-2.0, 135k rows, message-tree structure)", "agent": "A"}
+{"url": "https://github.com/lm-sys/FastChat", "label": "FastChat repo (ShareGPT/Vicuna tooling, LMSYS)", "agent": "A"}
+{"url": "https://github.com/thunlp/UltraChat", "label": "UltraChat GitHub repo", "agent": "A"}
+{"url": "https://github.com/LAION-AI/Open-Assistant", "label": "OpenAssistant GitHub repo", "agent": "A"}
+{"url": "https://github.com/princeton-nlp/SWE-bench", "label": "SWE-bench repo (5.2k stars, MIT, harness)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2310.06770", "label": "SWE-bench paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/SWE-bench/SWE-bench", "label": "SWE-bench HF dataset", "agent": "A"}
+{"url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified", "label": "SWE-bench Verified HF dataset (500 rows, problem_statement + gold patch)", "agent": "A"}
+{"url": "https://github.com/scaleapi/SWE-bench_Pro-os", "label": "SWE-bench Pro open-source repo (447 stars, MIT, eval scripts)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro", "label": "SWE-bench Pro HF dataset (731 rows, public, problem_statement + gold patch)", "agent": "A"}
+{"url": "https://github.com/openai/SWELancer-Benchmark", "label": "SWE-Lancer original repo (archived Jul 18 2025, redirects to preparedness)", "agent": "A"}
+{"url": "https://github.com/openai/preparedness", "label": "OpenAI preparedness repo (active SWE-Lancer eval, MIT, 1.2k stars)", "agent": "A"}
+{"url": "https://github.com/openai/human-eval", "label": "HumanEval repo (3.3k stars, MIT, eval harness, data/ folder)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2107.03374", "label": "HumanEval paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/google-research-datasets/mbpp", "label": "MBPP HF dataset (CC-BY-4.0, 974/427 rows, prompts+code)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2108.07732", "label": "MBPP paper", "agent": "A"}
+{"url": "https://github.com/LiveCodeBench/LiveCodeBench", "label": "LiveCodeBench repo (887 stars, MIT, 143 commits)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/livecodebench/code_generation_lite", "label": "LiveCodeBench HF dataset (public, cc, viewer disabled)", "agent": "A"}
+{"url": "https://github.com/Leolty/RepoBench", "label": "RepoBench repo (208 stars, CC-BY-4.0, eval.py)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/tianyang/repobench_python_v1.1", "label": "RepoBench Python v1.1 HF dataset", "agent": "A"}
+{"url": "https://github.com/seketeam/DevEval", "label": "DevEval repo (40 stars, NO license listed, 3 commits)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/LJ0815/DevEval", "label": "DevEval HF dataset (cc-by-4.0, 2.59GB, broken viewer)", "agent": "A"}
+{"url": "https://github.com/bigcode-project/bigcodebench", "label": "BigCodeBench repo (509 stars, Apache-2.0, v0.2.4 Mar 2 2025)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/bigcode/bigcodebench-hard", "label": "BigCodeBench-hard HF dataset", "agent": "A"}
+{"url": "https://github.com/laude-institute/terminal-bench", "label": "terminal-bench repo (2.4k stars, Apache-2.0, in-repo tasks, harbor successor)", "agent": "A"}
+{"url": "https://github.com/OpenBMB/ToolBench", "label": "ToolBench repo (5.7k stars, Apache-2.0, ToolEval, data on GDrive/Tsinghua, 120k+ solution paths)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2307.16789", "label": "ToolBench/ToolLLM paper", "agent": "A"}
+{"url": "https://github.com/THUDM/AgentBench", "label": "AgentBench repo (3.5k stars, Apache-2.0, Docker envs, configs/prompts)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2308.03688", "label": "AgentBench paper", "agent": "A"}
+{"url": "https://github.com/sierra-research/tau-bench", "label": "tau-bench repo (1.3k stars, MIT, run.py, historical_trajectories, deprecated->tau2)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2406.12045", "label": "tau-bench paper", "agent": "A"}
+{"url": "https://github.com/StonyBrookNLP/appworld", "label": "AppWorld repo (444 stars, Apache-2.0, v0.1.3.post1 Feb 17 2026, ReAct trajectories)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2407.18901", "label": "AppWorld paper", "agent": "A"}
+{"url": "https://github.com/web-arena-x/webarena", "label": "WebArena repo (1.5k stars, Apache-2.0, 812 tasks, self-host Docker, 170 human recordings)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2307.13854", "label": "WebArena paper", "agent": "A"}
+{"url": "https://github.com/web-arena-x/visualwebarena", "label": "VisualWebArena repo (480 stars, MIT, 910 tasks, GDrive trajectories)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2401.13649", "label": "VisualWebArena paper", "agent": "A"}
+{"url": "https://github.com/xlang-ai/OSWorld", "label": "OSWorld repo (2.9k stars, Apache-2.0, VM required, v0.1.16 Jun 26 2024)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2404.07972", "label": "OSWorld paper", "agent": "A"}
+{"url": "https://github.com/Farama-Foundation/miniwob-plusplus", "label": "MiniWoB++ repo (388 stars, MIT, Selenium/Gymnasium, 100+ envs, Aug 14 2023)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/gaia-benchmark/GAIA", "label": "GAIA HF dataset (GATED contact-sharing + no-reshare, ~450+ Qs, no license shown)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2311.12983", "label": "GAIA paper", "agent": "A"}
+{"url": "https://github.com/web-arena-x/BrowserArena", "label": "BrowserArena at web-arena-x: HTTP 404, repo does not exist", "agent": "A"}
+{"url": "https://github.com/search?q=BrowserArena+benchmark+LLM&type=repositories", "label": "GitHub repo search for BrowserArena: 0 results", "agent": "A"}
+{"url": "https://arxiv.org/abs/2510.02418", "label": "BrowserArena paper (arXiv, UPenn, Oct 2025, live Arena platform, no repo/dataset linked)", "agent": "A"}
+{"url": "https://github.com/ServiceNow/WorkArena", "label": "WorkArena repo (256 stars, v0.5.3 Feb 3 2026, browsergym-workarena, gated HF instances)", "agent": "A"}
+{"url": "https://github.com/ServiceNow/WorkArena/blob/main/LICENSE", "label": "WorkArena LICENSE (Apache-2.0, ServiceNow 2024)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2403.07718", "label": "WorkArena paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/THUDM/LongBench", "label": "LongBench HF card (no license shown, viewer disabled, 4750 ex, 5k-15k words)", "agent": "A"}
+{"url": "https://github.com/THUDM/LongBench", "label": "LongBench/LongBench v2 GitHub (MIT, 1.2k stars, pred.py/result.py)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/THUDM/LongBench-v2", "label": "LongBench v2 HF card (apache-2.0, 503 MCQ, 8k-2M words, viewer TooBigContentError)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/OpenLMLab/LEval", "label": "L-Eval HF mirror (HTTP 401 inaccessible)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/L4NLP/LEval", "label": "L-Eval canonical HF dataset (gpl-3.0, public, input 71.6k-116k chars, gold answers)", "agent": "A"}
+{"url": "https://github.com/OpenLMLab/LEval", "label": "L-Eval GitHub (GPL-3.0, 405 stars, auto_eval.py/llm_eval.py)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/galileo-ai/ragbench", "label": "RAGBench HF (cc-by-4.0, 12 subsets, rows viewable)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/rungalileo/ragbench", "label": "RAGBench second public mirror (cc-by-4.0)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2407.11005", "label": "RAGBench paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa", "label": "HotpotQA HF (cc-by-sa-4.0, 203k rows, context/supporting_facts visible)", "agent": "A"}
+{"url": "https://arxiv.org/abs/1809.09600", "label": "HotpotQA paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/google-research-datasets/natural_questions", "label": "Natural Questions HF (cc-by-sa-3.0, 144GB, full-wiki-page contexts)", "agent": "A"}
+{"url": "https://research.google/pubs/pub47761/", "label": "Natural Questions paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/mandarjoshi/trivia_qa", "label": "TriviaQA HF (license unknown, 847k rows, 34.8GB, evidence docs)", "agent": "A"}
+{"url": "https://arxiv.org/abs/1705.03551", "label": "TriviaQA paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/dgslibisey/MuSiQue", "label": "MuSiQue HF mirror (NO dataset card, 22355 rows viewable)", "agent": "A"}
+{"url": "https://github.com/StonyBrookNLP/musique", "label": "MuSiQue GitHub (CC-BY-4.0, 227 stars, evaluate_v1.0.py)", "agent": "A"}
+{"url": "https://github.com/Alab-NII/2wikimultihop", "label": "2WikiMultihopQA GitHub (CC-BY-4.0 data, Apache repo, 156 stars, Dropbox-only data, no HF)", "agent": "A"}
+{"url": "https://aclanthology.org/2020.coling-main.580/", "label": "2WikiMultihopQA paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/deepmind/narrativeqa", "label": "NarrativeQA HF (apache-2.0, 28668 rows, full-story contexts ~41k tokens)", "agent": "A"}
+{"url": "https://arxiv.org/abs/1712.07040", "label": "NarrativeQA paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/allenai/qasper", "label": "Qasper HF (cc-by-4.0, 1585 papers/5049 Qs, full_text contexts, gold answers)", "agent": "A"}
+{"url": "https://github.com/allenai/qasper-led-baseline", "label": "Qasper official LED baseline eval scripts", "agent": "A"}
+{"url": "https://huggingface.co/datasets/ccdv/arxiv-summarization", "label": "arXiv summarization HF card (no license shown; avg tokens 6038/299; 431826 rows)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/ccdv/pubmed-summarization", "label": "PubMed summarization HF card (no license shown; avg 3043/215; 266430 rows)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/ccdv/govreport-summarization", "label": "GovReport HF card (no license shown; 19463 rows)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/launch/gov_report", "label": "GovReport alt mirror (cc-by-4.0; 19.5k rows)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/alexfabbri/multi_news", "label": "MultiNews HF card (license other/LILY LAB non-commercial; viewer disabled)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/kmfoda/booksum", "label": "BookSum HF card (BSD-3-Clause; 12515 rows; chapter/book summaries)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2104.02112", "label": "arXiv/PubMed/GovReport summarization paper (efficient attention long-doc)", "agent": "A"}
+{"url": "https://arxiv.org/abs/1906.01749", "label": "MultiNews paper", "agent": "A"}
+{"url": "https://arxiv.org/abs/2105.08209", "label": "BookSum paper", "agent": "A"}
+{"url": "https://github.com/stanford-crfm/helm", "label": "HELM GitHub (Apache-2.0; 2.8k stars; v0.5.16 Apr 30 2026; maintenance mode June 1 2026)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2211.09110", "label": "HELM paper", "agent": "A"}
+{"url": "https://github.com/EleutherAI/lm-evaluation-harness", "label": "lm-eval-harness GitHub (MIT; 13k stars; v0.4.12 May 11 2026; public prompts)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2405.14782", "label": "lm-evaluation-harness paper", "agent": "A"}
+{"url": "https://huggingface.co/datasets/cais/mmlu", "label": "MMLU HF card (MIT; public; 231400 rows / 14042 test)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro", "label": "MMLU-Pro HF card (MIT; public; 12102 rows; cot_content; updated 2026.03.11)", "agent": "A"}
+{"url": "https://github.com/openai/grade-school-math", "label": "GSM8K GitHub (archived Apr 8 2026; 1.4k stars; 8.5K problems w/ CoT)", "agent": "A"}
+{"url": "https://github.com/hendrycks/math", "label": "MATH GitHub (MIT; 1.4k stars; dataset linked off-repo)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500", "label": "MATH-500 verified mirror (public; 500 test rows; problem/solution/answer)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/Idavidrein/gpqa", "label": "GPQA HF card (GATED contact-info agreement; CC-BY-4.0; 448 MCQs)", "agent": "A"}
+{"url": "https://github.com/google/BIG-bench", "label": "BIG-bench GitHub (archived Apr 17 2026; Apache-2.0; 3.2k stars; 200+ JSON tasks)", "agent": "A"}
+{"url": "https://github.com/suzgun/BIG-Bench-Hard", "label": "BBH source repo: 404 on all fetch attempts (unverifiable directly)", "agent": "A"}
+{"url": "https://huggingface.co/datasets/maveriq/bigbenchhard", "label": "BBH HF mirror (MIT; public; 6511 rows; 23 tasks; input/target)", "agent": "A"}
+{"url": "https://github.com/Azure/AzurePublicDataset", "label": "Azure Public Dataset repo (CC-BY-4.0/MIT, 1.1k stars, latest release Jun 2 2026)", "agent": "A"}
+{"url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md", "label": "Azure LLM Inference 2023 columns (TIMESTAMP, ContextTokens, GeneratedTokens; no prompt text per GDPR)", "agent": "A"}
+{"url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md", "label": "Azure LLM Inference 2024 one-week (May 10-19 2024), same 3 columns", "agent": "A"}
+{"url": "https://github.com/Azure/AzurePublicDataset/blob/master/README.md", "label": "Azure repo README (maps datasets to Splitwise ISCA24 / DynamoLLM HPCA25)", "agent": "A"}
+{"url": "https://www.microsoft.com/en-us/research/publication/splitwise-efficient-generative-llm-inference-using-phase-splitting/", "label": "Splitwise paper (Azure 2023 trace)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2408.00741", "label": "DynamoLLM paper (Azure 2024 trace)", "agent": "A"}
+{"url": "https://github.com/HPMLL/BurstGPT", "label": "BurstGPT trace schema (CC-BY-4.0, 272 stars, v2.0 Jan 15 2026, ~5.34M rows)", "agent": "A"}
+{"url": "https://arxiv.org/abs/2401.17644", "label": "BurstGPT paper (KDD25)", "agent": "A"}
+{"url": "https://github.com/kvcache-ai/Mooncake", "label": "Mooncake repo + mooncake_trace.jsonl (timestamp,input_length,output_length,hash_ids; Apache-2.0; 5.6k stars)", "agent": "A"}
+{"url": "https://www.usenix.org/system/files/fast25-qin.pdf", "label": "Mooncake FAST25 paper", "agent": "A"}
+{"url": "https://github.com/vllm-project/vllm/blob/main/benchmarks/README.md", "label": "vLLM benchmarks README (ShareGPT dataset; arrivals synthesized via Poisson)", "agent": "A"}

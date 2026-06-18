@@ -5,6 +5,9 @@
 # Usage: run_agent.sh <AGENT_LETTER> <backend> <task_file> <log_file>
 #   backend ∈ {claude-opus-4-8, claude-sonnet-4-7, codex, gemini}
 set -u
+# NOTE: source agentenv FIRST — it does `unset AGENT ...`, which would wipe a same-named shell var.
+# We assign our vars AFTER sourcing so the unset can't clobber them (and set -u stays safe).
+source /tmp/agentenv.sh 2>/dev/null   # self-sufficient: user x509 cert env (safe to source repeatedly)
 AGENT="$1"; BACKEND="$2"; TASKFILE="$3"; LOG="$4"
 INSTANCE="$(cd "$(dirname "$0")" && pwd)"
 COMMON="$INSTANCE/prompts/agents/_common.md"
@@ -34,7 +37,7 @@ case "$BACKEND" in
     timeout "$TO" codex --dangerously-bypass-approvals-and-sandbox exec --skip-git-repo-check \
       "$PROMPT" </dev/null >>"$LOG" 2>&1 ;;
   gemini*)
-    OTEL_SDK_DISABLED=true timeout "$TO" gemini --dangerously-enable-internet-mode --yolo \
+    OTEL_SDK_DISABLED=true timeout "$TO" gemini --dangerously-enable-internet-mode --approval-mode=yolo \
       -p "$PROMPT" </dev/null >>"$LOG" 2>&1 ;;
   *)
     echo "ERROR: unknown backend '$BACKEND'" >> "$LOG"; exit 4 ;;
