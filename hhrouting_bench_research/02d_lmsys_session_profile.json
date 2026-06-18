@@ -1,0 +1,82 @@
+{
+  "dataset": "LMSYS-Chat-1M (shard0)",
+  "n_conversations": 20000,
+  "tokenizer": "cl100k_base",
+  "source_url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+  "license": "LMSYS-Chat-1M Dataset License (research, non-commercial, no de-anon)",
+  "fields_present": [
+    "model",
+    "per-turn role",
+    "turn",
+    "language",
+    "openai_moderation",
+    "NO timestamp",
+    "NO ip/tenant"
+  ],
+  "user_message_input_tokens": {
+    "n": 40928,
+    "min": 1,
+    "p50": 16,
+    "p90": 157,
+    "p99": 576,
+    "max": 2503,
+    "mean": 58
+  },
+  "assistant_message_output_tokens": {
+    "n": 40928,
+    "min": 0,
+    "p50": 125,
+    "p90": 407,
+    "p99": 661,
+    "max": 402367,
+    "mean": 201
+  },
+  "prefill_context_tokens_per_assistant_turn": {
+    "n": 40928,
+    "min": 1,
+    "p50": 127,
+    "p90": 1266,
+    "p99": 5653,
+    "max": 403498,
+    "mean": 544
+  },
+  "full_session_token_total_KV_highwater": {
+    "n": 20000,
+    "min": 1,
+    "p50": 316,
+    "p90": 1023,
+    "p99": 2830,
+    "max": 805865,
+    "mean": 530
+  },
+  "turns_per_conversation": {
+    "n": 20000,
+    "min": 2,
+    "p50": 2,
+    "p90": 8,
+    "p99": 26,
+    "max": 170,
+    "mean": 4
+  },
+  "unique_models": 25,
+  "top_models": {
+    "vicuna-13b": 9916,
+    "koala-13b": 1627,
+    "alpaca-13b": 1204,
+    "chatglm-6b": 679,
+    "llama-13b": 667,
+    "vicuna-33b": 617,
+    "llama-2-13b-chat": 588,
+    "oasst-pythia-12b": 506,
+    "fastchat-t5-3b": 502,
+    "claude-1": 472
+  },
+  "top_languages": {
+    "English": 15502,
+    "unknown": 592,
+    "Portuguese": 589,
+    "Russian": 564,
+    "Chinese": 481,
+    "Spanish": 456
+  }
+}

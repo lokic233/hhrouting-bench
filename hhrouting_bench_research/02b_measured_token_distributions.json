@@ -1,5 +1,30 @@
 [
   {
+    "key": "GAIA",
+    "hf_id": "gaia-benchmark/GAIA",
+    "config": "2023-all-levels",
+    "split": "val+test",
+    "tokenizer": "cl100k_base",
+    "input_tokens": {
+      "n": 466,
+      "min": 12,
+      "p50": 49,
+      "p90": 110,
+      "p99": 303,
+      "max": 787,
+      "mean": 66
+    },
+    "output_tokens": {
+      "n": 165,
+      "min": 1,
+      "p50": 2,
+      "p90": 8,
+      "p99": 22,
+      "max": 67,
+      "mean": 4
+    }
+  },
+  {
     "key": "GSM8K",
     "hf_id": "openai/gsm8k",
     "config": "main",
@@ -106,6 +131,31 @@
     },
     "status": "ok",
     "secs": 2.3
+  },
+  {
+    "key": "LMSYS-Chat-1M",
+    "hf_id": "lmsys/lmsys-chat-1m",
+    "config": "shard0",
+    "split": "train",
+    "tokenizer": "cl100k_base",
+    "input_tokens": {
+      "n": 40928,
+      "min": 1,
+      "p50": 16,
+      "p90": 157,
+      "p99": 576,
+      "max": 2503,
+      "mean": 58
+    },
+    "output_tokens": {
+      "n": 40928,
+      "min": 0,
+      "p50": 125,
+      "p90": 407,
+      "p99": 661,
+      "max": 402367,
+      "mean": 201
+    }
   },
   {
     "key": "LongBench-2wikimqa",

@@ -1,0 +1,48 @@
+{
+  "dataset": "GAIA 2023 (all levels, val+test)",
+  "n_tasks": 466,
+  "tokenizer": "cl100k_base",
+  "source_url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+  "license": "GAIA (gated, research)",
+  "fields_present": [
+    "Question",
+    "Final answer",
+    "Level",
+    "Annotator Steps (reasoning trace)",
+    "file_name (multimodal attachment)"
+  ],
+  "question_input_tokens": {
+    "n": 466,
+    "min": 12,
+    "p50": 49,
+    "p90": 110,
+    "p99": 303,
+    "max": 787,
+    "mean": 66
+  },
+  "final_answer_tokens": {
+    "n": 165,
+    "min": 1,
+    "p50": 2,
+    "p90": 8,
+    "p99": 22,
+    "max": 67,
+    "mean": 4
+  },
+  "annotator_steps_tokens(reasoning_proxy)": {
+    "n": 466,
+    "min": 0,
+    "p50": 0,
+    "p90": 206,
+    "p99": 714,
+    "max": 3798,
+    "mean": 71
+  },
+  "levels": {
+    "L1": 146,
+    "L2": 245,
+    "L3": 75
+  },
+  "tasks_with_file_attachment": 109,
+  "pct_multimodal": 23.4
+}

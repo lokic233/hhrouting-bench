@@ -1,8 +1,10 @@
 dataset_key,hf_id,config,split,tokenizer,n_samples,in_min,in_p50,in_p90,in_p99,in_max,in_mean,out_p50,out_p90,out_p99,out_max,out_mean
+GAIA,gaia-benchmark/GAIA,2023-all-levels,val+test,cl100k_base,466,12,49,110,303,787,66,2,8,22,67,4
 GSM8K,openai/gsm8k,main,test,cl100k_base,400,23,54,88,123,132,58,91,159,222,310,100
 GovReport-sum,ccdv/govreport-summarization,document,test,cl100k_base,100,2138,8656,16538,21751,22192,9470,706,903,1411,1427,743
 HotpotQA,hotpotqa/hotpot_qa,distractor,validation,cl100k_base,300,8,20,31,43,52,22,3,6,11,23,4
 HumanEval,openai/openai_humaneval,,test,cl100k_base,164,38,117,226,311,391,131,46,107,157,240,54
+LMSYS-Chat-1M,lmsys/lmsys-chat-1m,shard0,train,cl100k_base,40928,1,16,157,576,2503,58,125,407,661,402367,201
 LongBench-2wikimqa,THUDM/LongBench,2wikimqa,test,cl100k_base,150,932,6334,12286,15750,16142,6906,6,9,14,24,6
 LongBench-gov_report,THUDM/LongBench,gov_report,test,cl100k_base,120,2019,8740,18330,42706,51394,10897,723,895,1406,1459,732
 LongBench-hotpotqa,THUDM/LongBench,hotpotqa,test,cl100k_base,150,1771,14399,16286,16341,16347,13051,5,8,20,30,6
