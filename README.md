@@ -14,7 +14,7 @@ adapted into a focused **7-agent hostile research committee** running on 4 model
 | Agent | Role | Backend |
 |-------|------|---------|
 | A | Benchmark Validator | Claude Opus 4.8 |
-| B | Workload Decomposer | Claude Sonnet 4.7 |
+| B | Workload Decomposer | Claude Opus 4.7 |
 | C | Dataset Sampler / Payload Inspector | Codex 5.5 |
 | D | Trace Feasibility Analyst | Claude Opus 4.8 |
 | E | Canonical Workload Taxonomy Builder | Claude Opus 4.8 |

@@ -15,7 +15,7 @@ banner(){ echo "==================== [$(ts)] $* ===================="; }
 #   A Validator      -> claude-opus-4-8   (strongest factual web research)
 #   C Sampler        -> codex             (good at schema/structured extraction)
 #   G Trace-hunter   -> gemini            (contained, single-file deep search)
-#   B Decomposer     -> claude-sonnet-4-7 (4.7)
+#   B Decomposer     -> claude-opus-4-7 (4.7)
 #   D TraceFeasib    -> claude-opus-4-8
 #   E Taxonomy       -> claude-opus-4-8
 #   F RedTeam        -> codex             (independent family from producers)
@@ -45,7 +45,7 @@ run_wave(){ # label "AGENT BACKEND TASKFILE" ...
 
 banner "HHROUTING-BENCH SPRINT START"
 run_wave "1: discover (A||C||G)"   "A claude-opus-4-8 task_A.md" "C codex task_C.md" "G gemini task_G.md"
-run_wave "2: decompose (B||D)"     "B claude-sonnet-4-7 task_B.md" "D claude-opus-4-8 task_D.md"
+run_wave "2: decompose (B||D)"     "B claude-opus-4-7 task_B.md" "D claude-opus-4-8 task_D.md"
 run_wave "3: taxonomy (E)"         "E claude-opus-4-8 task_E.md"
 run_wave "4: red-team (F)"         "F codex task_F.md"
 run_wave "5: final report (R)"     "R claude-opus-4-8 task_R.md"

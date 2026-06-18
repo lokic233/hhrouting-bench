@@ -1,72 +1,69 @@
-# Production Inference-Trace Datasets
+# Production LLM Inference Traces for HHRouting-Bench
 
-## Summary Ranked List (Usability for Request-Level Arrivals & Routing)
-1. **Mooncake LLM Serving Traces (Kimi)**: Highest value for routing due to the inclusion of `hash_ids` for KV cache/prefix sharing analysis along with token counts and timestamps.
-2. **Azure LLM Inference Traces (2023/2024)**: Directly usable large-scale request-level traces from a major cloud provider (Microsoft), explicitly containing timestamps and token counts.
-3. **BurstGPT**: Directly usable ChatGPT/GPT-4 workload trace with actual arrival times, elapsed times, session IDs, and token counts.
-4. **LMSYS Chatbot Arena Conversations**: Extremely rich real-world user conversations with timestamps. Token counts must be inferred by re-tokenizing the conversational text, but it accurately captures session multi-turn dynamics.
-5. **Alibaba GenAI Serving Dataset (GenTD26)**: Highly detailed top-down trace of request execution, but focused on Stable Diffusion (GenAI) rather than LLM text generation. Useful for pipeline stage routing.
-6. **Azure Functions Trace 2019**: Aggregate serverless function invocations. Often used in LLM serving papers (e.g., AlpaServe) as a proxy for request arrival burstiness, but does not contain LLM-specific token counts.
+This document catalogs public, GitHub-validated datasets containing real-world LLM serving inference traces. These traces are critical for simulating request-level workloads, including arrival processes, token lengths, and session tracking.
+
+## Ranked List of Most Usable Request-Level Traces
+1. **Azure LLM Inference Dataset (2024 & 2023)**: The gold standard for direct request-level traces, containing real timestamps, context tokens, and generated tokens from production Azure clusters.
+2. **BurstGPT**: Highly valuable for its inclusion of multi-turn conversation tracking (`Session ID`) alongside timestamps and token lengths from real ChatGPT/GPT-4 API usage.
+3. **Mooncake Trace**: Extremely rare and valuable for prefix-caching evaluation, as it explicitly includes `hash_ids` representing prefix blocks along with token lengths and timestamps from Moonshot AI's Kimi service.
+4. **Splitwise Artifact Traces**: Provides Azure production traces (similar to the Azure Public Dataset but packaged for the Splitwise ISCA'24 paper).
+5. **LMSYS Chatbot Arena Conversations**: Contains real timestamps and text (which can be tokenized), but is limited by gated access.
+6. **ShareGPT (Standard vLLM benchmark)**: Commonly used but lacks arrival timestamps, requiring synthesized (e.g., Poisson) arrival processes.
 
 ---
 
-## 1. Mooncake LLM Serving Traces (Kimi/Moonshot)
-* **GitHub URL**: https://github.com/kvcache-ai/Mooncake (Public)
-* **Dataset URL**: https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces
-* **Contained Fields**: `timestamp`, `input_length`, `output_length`, `hash_ids` (indicates KV cache block/prefix sharing). Contains three sub-traces: `conversation_trace.jsonl`, `synthetic_trace.jsonl`, and `toolagent_trace.jsonl`.
-* **License**: Apache-2.0 (Source: https://api.github.com/repos/kvcache-ai/Mooncake/license)
-* **Last Update**: Released for FAST 2025.
-* **Trace Type**: Direct request-level LLM serving trace.
-* **Status**: Open, available.
+## 1. Azure LLM Inference Dataset (2024 & 2023)
+- **GitHub URL**: [https://github.com/Azure/AzurePublicDataset](https://github.com/Azure/AzurePublicDataset)
+- **Dataset URL**: [https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md](https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md)
+- **Contained Fields**: `TIMESTAMP` (invocation time), `ContextTokens` (input tokens), `GeneratedTokens` (output tokens). Prompt text is omitted for GDPR reasons.
+- **License**: [CC-BY 4.0 Attribution License](https://github.com/Azure/AzurePublicDataset/blob/master/LICENSE)
+- **Last Update**: May 2024 (for the 2024 dataset), 2023 (for the 2023 dataset).
+- **Direct Request-Level Trace**: **Yes**. These are true production arrivals and token counts without aggregation.
 
-## 2. Azure LLM Inference Traces (Azure Public Dataset)
-* **GitHub URL**: https://github.com/Azure/AzurePublicDataset (Public)
-* **Dataset URLs**: 
-  * 2023 Trace (Splitwise): https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md
-  * 2024 Trace (DynamoLLM): https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md
-* **Contained Fields**: `TIMESTAMP` (invocation time), `ContextTokens` (input), `GeneratedTokens` (output).
-* **License**: CC-BY-4.0 (Source: https://api.github.com/repos/Azure/AzurePublicDataset/license)
-* **Last Update**: May 2024 (for the 2024 trace dataset).
-* **Trace Type**: Direct request-level inference trace.
-* **Status**: Open, available.
+## 2. BurstGPT
+- **GitHub URL**: [https://github.com/HPMLL/BurstGPT](https://github.com/HPMLL/BurstGPT)
+- **Dataset URL**: [https://huggingface.co/datasets/lzzmm/BurstGPT](https://huggingface.co/datasets/lzzmm/BurstGPT)
+- **Contained Fields**: `Timestamp` (seconds from 0:00:00), `Session ID` (for conversation continuity tracking), `Elapsed time`, `Model` (ChatGPT/GPT-4), `Request tokens`, `Response tokens`, `Total tokens`, `Log Type` (Conversation vs API).
+- **License**: [CC-BY 4.0](https://github.com/HPMLL/BurstGPT/blob/main/LICENSE)
+- **Last Update**: Jan 2024 (ArXiv paper) / Active releases in 2024.
+- **Direct Request-Level Trace**: **Yes**. Real-world trace of ChatGPT/GPT-4 workloads capturing both bursty arrivals and actual token lengths.
 
-## 3. BurstGPT
-* **GitHub URL**: https://github.com/HPMLL/BurstGPT (Public)
-* **Dataset URL**: https://github.com/HPMLL/BurstGPT/releases/tag/v2.0
-* **Contained Fields**: `Timestamp`, `Session ID`, `Elapsed time`, `Model`, `Request tokens`, `Response tokens`, `Total tokens`, `Log Type`.
-* **License**: CC-BY-4.0 (Source: https://api.github.com/repos/HPMLL/BurstGPT/license)
-* **Last Update**: 2024 (v2.0 release adding elapsed time and session IDs).
-* **Trace Type**: Direct request-level traces based on Azure OpenAI API interactions.
-* **Status**: Open, available.
+## 3. Mooncake Trace (Kimi/Moonshot AI)
+- **GitHub URL**: [https://github.com/kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake)
+- **Dataset URL**: [https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces](https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces)
+- **Contained Fields**: `timestamp`, `input_length`, `output_length`, `hash_ids` (an array representing blocked prefix caches for exact cache-hit simulations).
+- **License**: [Apache 2.0](https://github.com/kvcache-ai/Mooncake/blob/main/LICENSE-APACHE)
+- **Last Update**: Feb 2025 (FAST 2025 artifact release).
+- **Direct Request-Level Trace**: **Yes**. Extracted from Kimi's production serving platform, featuring unique prefix block metadata for routing optimization.
 
-## 4. LMSYS Chatbot Arena Conversations
-* **GitHub URL**: N/A (Dataset hosted on HuggingFace)
-* **Dataset URL**: https://huggingface.co/datasets/lmsys/chatbot_arena_conversations
-* **Contained Fields**: `question_id`, `model_a`, `model_b`, `conversation_a` (content, role), `conversation_b` (content, role), `turn`, `anony`, `language`, `tstamp` (timestamp), `openai_moderation`, `toxic_chat_tag`.
-* **License**: cc (HuggingFace card metadata; non-commercial terms often apply based on underlying model APIs).
-* **Last Update**: Collected April to June 2023.
-* **Trace Type**: Direct request-level conversation logs. Explicit token lengths are missing but can be synthetically derived from the provided raw conversation strings.
-* **Status**: Open, available.
+## 4. Splitwise Artifact Traces
+- **GitHub URL**: [https://github.com/Mutinifni/splitwise-sim](https://github.com/Mutinifni/splitwise-sim)
+- **Dataset URL**: [https://zenodo.org/records/11003049](https://zenodo.org/records/11003049)
+- **Contained Fields**: Contains raw `.csv` traces (`AzureLLMInferenceTrace_conv.csv` and `AzureLLMInferenceTrace_code.csv`) mirroring the Azure public dataset schema.
+- **License**: [CC-BY 4.0](https://zenodo.org/records/11003049)
+- **Last Update**: April 2024.
+- **Direct Request-Level Trace**: **Yes**. Backs the ISCA'24 Splitwise paper.
 
-## 5. Alibaba GenAI Serving Top-Down Dataset 2026 (GenTD26)
-* **GitHub URL**: https://github.com/alibaba/clusterdata (Public)
-* **Dataset URL**: https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI
-* **Contained Fields**: Detailed system tracing including `pipeline_inference_data_anon.csv`, `pod_gpu_duty_cycle_anon.csv`, and application-level `lora_request_trace.csv`.
-* **License**: Unknown (Repo implies open access for research, but no explicit SPDX license file matched).
-* **Last Update**: 2026 (Reflected in dataset title).
-* **Trace Type**: Direct request-level pipeline trace (Note: Focused on Stable Diffusion/Generative Image, NOT LLM text generation).
-* **Status**: Open, available.
+## 5. LMSYS Chatbot Arena Conversations
+- **GitHub URL**: [https://github.com/lm-sys/FastChat](https://github.com/lm-sys/FastChat)
+- **Dataset URL**: [https://huggingface.co/datasets/lmsys/chatbot_arena_conversations](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations)
+- **Contained Fields**: Question ID, full conversation text (can be tokenized for lengths), anonymized user ID, timestamp.
+- **License**: CC-BY 4.0 (for user inputs).
+- **Last Update**: Mid-2023 (for the 33K split) to 2024.
+- **Direct Request-Level Trace**: **Yes, but GATED**. The dataset is set to `gated="auto"` on Hugging Face, requiring manual authentication. It provides real timestamps but requires an extra tokenization step to get `input_tokens` and `output_tokens`.
 
-## 6. Azure Functions Trace 2019 (Proxy Trace)
-* **GitHub URL**: https://github.com/Azure/AzurePublicDataset (Public)
-* **Dataset URL**: https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md
-* **Contained Fields**: Function invocation counts/triggers, execution time distributions, memory allocation distributions.
-* **License**: CC-BY-4.0 (Source: https://api.github.com/repos/Azure/AzurePublicDataset/license)
-* **Last Update**: July 2019.
-* **Trace Type**: Aggregate serverless execution times and invocations. Does not contain token lengths. Included here as it is frequently cited (e.g., AlpaServe) as a source for simulating realistic cloud arrival burstiness.
-* **Status**: Open, available.
+## 6. ShareGPT (vLLM / Sarathi-Serve standard)
+- **GitHub URL**: [https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm)
+- **Dataset URL**: [https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered)
+- **Contained Fields**: Text prompts and responses only.
+- **License**: Unclear / Scraped data.
+- **Last Update**: 2023.
+- **Direct Request-Level Trace**: **No**. This dataset contains only payloads. Standard benchmarks (like vLLM's benchmark suite) must synthesize request arrival times (e.g., via a Poisson process) because true timestamps are absent. 
 
-## Note on Serving Paper Artifacts
-Many popular LLM serving systems do not release net-new production traces, but instead re-synthesize or repackage existing datasets:
-* **DistServe / vLLM**: Both systems typically rely on `ShareGPT` (https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered) for token lengths and synthesize arrival times artificially using a Poisson process (Source: https://github.com/LLMServe/DistServe/blob/main/evaluation/2-benchmark-serving/0-prepare-dataset.py).
-* **AlpaServe**: Uses the Azure Functions 2019 trace (above) to simulate request arrival distribution.
+## 7. Alibaba GPU Cluster Data (2020-2022)
+- **GitHub URL**: [https://github.com/alibaba/clusterdata](https://github.com/alibaba/clusterdata)
+- **Dataset URL**: [https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020)
+- **Contained Fields**: GPU utilization, task names, instances, sensor metrics. 
+- **License**: Custom Alibaba EULA / Open for research.
+- **Last Update**: 2022 (NSDI '22).
+- **Direct Request-Level Trace**: **No**. The trace provides aggregate metrics of MLaaS jobs (training and inference) across 6,500 GPUs. It lacks the request-level token resolution (input/output tokens) necessary for LLM serving routing.

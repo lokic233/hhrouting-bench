@@ -13,4 +13,12 @@
 {"label": "Alibaba GenAI Trace 2026", "url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI"}
 {"label": "Azure Functions Dataset 2019", "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md"}
 {"label": "ShareGPT Unfiltered", "url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered"}
-{"label": "DistServe Dataset Preparation Script", "url": "https://github.com/LLMServe/DistServe/blob/main/evaluation/2-benchmark-serving/0-prepare-dataset.py"}
+{"label": "DistServe Dataset Preparation Script", "url": "https://github.com/LLMServe/DistServe/blob/main/evaluation/2-benchmark-serving/0-prepare-dataset.py"}{"url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md", "label": "Azure LLM Inference Dataset"}
+{"url": "https://github.com/HPMLL/BurstGPT/blob/main/LICENSE", "label": "BurstGPT License"}
+{"url": "https://huggingface.co/datasets/lzzmm/BurstGPT", "label": "BurstGPT Dataset"}
+{"url": "https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces", "label": "Mooncake Traces"}
+{"url": "https://github.com/kvcache-ai/Mooncake/blob/main/LICENSE-APACHE", "label": "Mooncake License"}
+{"url": "https://zenodo.org/records/11003049", "label": "Splitwise Artifact Traces"}
+{"url": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations", "label": "LMSYS Chatbot Arena Dataset"}
+{"url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered", "label": "ShareGPT Dataset"}
+{"url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020", "label": "Alibaba Cluster Data"}
