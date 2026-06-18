@@ -1,0 +1,31 @@
+# HHRouting-Bench instance config (adapted from research-os.config.yaml)
+engine:
+  template: lokic233/research-os
+  instance: lokic233/hhrouting-bench
+mission: >
+  Source-cited evidence package: which public, GitHub-validated benchmarks/datasets are usable for
+  decomposing into request-level LLM serving-routing workloads. Serving mechanics, not model accuracy.
+control_node: devvm14382.scu0.facebook.com
+agent_env: /tmp/agentenv.sh        # sources user x509 cert; unsets agent-role so CLIs auth
+backends:
+  - {name: claude-opus-4-8,   cli: claude, flag: "--dangerously-enable-internet-mode --allow-dangerously-skip-permissions --model claude-opus-4-8"}
+  - {name: claude-sonnet-4-7, cli: claude, flag: "--dangerously-enable-internet-mode --allow-dangerously-skip-permissions --model claude-sonnet-4-7"}
+  - {name: codex,             cli: codex,  flag: "--dangerously-bypass-approvals-and-sandbox exec --skip-git-repo-check"}
+  - {name: gemini,            cli: gemini, flag: "--dangerously-enable-internet-mode --yolo (OTEL_SDK_DISABLED=true)"}
+committee:
+  members:
+    - {agent: A, role: benchmark_validator,   backend: claude-opus-4-8}
+    - {agent: B, role: workload_decomposer,   backend: claude-sonnet-4-7}
+    - {agent: C, role: payload_inspector,     backend: codex}
+    - {agent: D, role: trace_feasibility,     backend: claude-opus-4-8}
+    - {agent: E, role: taxonomy_builder,      backend: claude-opus-4-8}
+    - {agent: F, role: red_team_reviewer,     backend: codex}
+    - {agent: G, role: trace_hunter,          backend: gemini}
+    - {agent: R, role: report_synthesizer,    backend: claude-opus-4-8}
+  schedule: [[A,C,G],[B,D],[E],[F],[R]]   # dependency waves
+constraints:
+  - no_hhrouting_code_edits
+  - no_final_synthetic_traces_tonight
+  - every_claim_needs_source_url
+  - mark_gated_or_estimated_explicitly
+  - no_large_copyrighted_dumps
