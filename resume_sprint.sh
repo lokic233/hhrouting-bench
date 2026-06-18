@@ -10,7 +10,7 @@ RA="$INSTANCE/run_agent.sh"; mkdir -p "$RESEARCH" "$LOGS"
 ts(){ date -u +%H:%M:%SZ; }
 # a deliverable "exists" iff present AND non-trivial (>200 bytes) — guards against empty/stub files
 have(){ [ -s "$RESEARCH/$1" ] && [ "$(wc -c <"$RESEARCH/$1")" -gt 200 ]; }
-running(){ pgrep -f "run_agent.sh $1 " >/dev/null; }
+running(){ ps -eo args | grep -E "[r]un_agent\.sh $1 " >/dev/null; }
 
 commit(){ ( cd "$INSTANCE" && git add -A && \
   git -c user.name="Loki Chen" -c user.email="dengcchi@meta.com" commit -q -m "resume: $1" 2>/dev/null && \

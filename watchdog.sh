@@ -13,9 +13,9 @@ for i in $(seq 1 80); do   # 80 * 5min = ~6.7h hard cap
   fi
   # is anything actively driving/working?
   active=0
-  pgrep -f "run_sprint.sh"   >/dev/null && active=1
-  pgrep -f "resume_sprint.sh">/dev/null && active=1
-  for L in A B C D E F G R; do pgrep -f "run_agent.sh $L " >/dev/null && active=1; done
+  ps -eo args | grep -E "[r]un_sprint\.sh"    >/dev/null && active=1
+  ps -eo args | grep -E "[r]esume_sprint\.sh" >/dev/null && active=1
+  for L in A B C D E F G R; do ps -eo args | grep -E "[r]un_agent\.sh $L " >/dev/null && active=1; done
   if [ "$active" -eq 0 ]; then
     echo "[$(ts)] no active sprint/agent — kicking resume_sprint.sh" >> "$LOG"
     nohup "$INSTANCE/resume_sprint.sh" >> "$INSTANCE/logs/_resume.log" 2>&1 &

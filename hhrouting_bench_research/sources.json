@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "s001",
+    "label": "2WikiMultihopQA paper",
+    "url": "https://aclanthology.org/2020.coling-main.580/",
+    "benchmark": "2WikiMultihopQA",
+    "cited_by": "A"
+  },
+  {
+    "id": "s002",
+    "label": "AzurePublicDataset License",
+    "url": "https://api.github.com/repos/Azure/AzurePublicDataset/license",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s003",
+    "label": "BurstGPT License",
+    "url": "https://api.github.com/repos/HPMLL/BurstGPT/license",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s004",
+    "label": "Mooncake License",
+    "url": "https://api.github.com/repos/kvcache-ai/Mooncake/license",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s005",
+    "label": "AppWorld homepage",
+    "url": "https://appworld.dev/",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s006",
+    "label": "TriviaQA paper",
+    "url": "https://arxiv.org/abs/1705.03551",
+    "benchmark": "TriviaQA",
+    "cited_by": "A"
+  },
+  {
+    "id": "s007",
+    "label": "NarrativeQA paper",
+    "url": "https://arxiv.org/abs/1712.07040",
+    "benchmark": "NarrativeQA",
+    "cited_by": "A"
+  },
+  {
+    "id": "s008",
+    "label": "HotpotQA paper",
+    "url": "https://arxiv.org/abs/1809.09600",
+    "benchmark": "HotpotQA",
+    "cited_by": "A"
+  },
+  {
+    "id": "s009",
+    "label": "MultiNews paper",
+    "url": "https://arxiv.org/abs/1906.01749",
+    "benchmark": "MultiNews",
+    "cited_by": "A"
+  },
+  {
+    "id": "s010",
+    "label": "arXiv/PubMed/GovReport summarization paper (efficient attention long-doc)",
+    "url": "https://arxiv.org/abs/2104.02112",
+    "benchmark": "arXiv summarization",
+    "cited_by": "A"
+  },
+  {
+    "id": "s011",
+    "label": "BookSum paper",
+    "url": "https://arxiv.org/abs/2105.08209",
+    "benchmark": "BookSum",
+    "cited_by": "A"
+  },
+  {
+    "id": "s012",
+    "label": "HumanEval paper",
+    "url": "https://arxiv.org/abs/2107.03374",
+    "benchmark": "HumanEval",
+    "cited_by": "A"
+  },
+  {
+    "id": "s013",
+    "label": "MBPP paper",
+    "url": "https://arxiv.org/abs/2108.07732",
+    "benchmark": "MBPP",
+    "cited_by": "A"
+  },
+  {
+    "id": "s014",
+    "label": "HELM paper",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "benchmark": "HELM",
+    "cited_by": "A"
+  },
+  {
+    "id": "s015",
+    "label": "RepoBench arXiv",
+    "url": "https://arxiv.org/abs/2306.03091",
+    "benchmark": "RepoBench",
+    "cited_by": "C"
+  },
+  {
+    "id": "s016",
+    "label": "WebArena paper",
+    "url": "https://arxiv.org/abs/2307.13854",
+    "benchmark": "WebArena",
+    "cited_by": "A"
+  },
+  {
+    "id": "s017",
+    "label": "ToolBench/ToolLLM paper",
+    "url": "https://arxiv.org/abs/2307.16789",
+    "benchmark": "ToolBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s018",
+    "label": "AgentBench paper",
+    "url": "https://arxiv.org/abs/2308.03688",
+    "benchmark": "AgentBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s019",
+    "label": "SWE-bench paper",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "benchmark": "SWE-bench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s020",
+    "label": "GAIA paper",
+    "url": "https://arxiv.org/abs/2311.12983",
+    "benchmark": "GAIA",
+    "cited_by": "A"
+  },
+  {
+    "id": "s021",
+    "label": "VisualWebArena paper",
+    "url": "https://arxiv.org/abs/2401.13649",
+    "benchmark": "VisualWebArena",
+    "cited_by": "A"
+  },
+  {
+    "id": "s022",
+    "label": "BurstGPT KDD25 paper (burstiness analysis)",
+    "url": "https://arxiv.org/abs/2401.17644",
+    "benchmark": "BurstGPT",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s023",
+    "label": "WorkArena paper",
+    "url": "https://arxiv.org/abs/2403.07718",
+    "benchmark": "WorkArena",
+    "cited_by": "A"
+  },
+  {
+    "id": "s024",
+    "label": "OSWorld paper",
+    "url": "https://arxiv.org/abs/2404.07972",
+    "benchmark": "OSWorld",
+    "cited_by": "A"
+  },
+  {
+    "id": "s025",
+    "label": "WildChat paper",
+    "url": "https://arxiv.org/abs/2405.01470",
+    "benchmark": "WildChat",
+    "cited_by": "C"
+  },
+  {
+    "id": "s026",
+    "label": "lm-evaluation-harness paper",
+    "url": "https://arxiv.org/abs/2405.14782",
+    "benchmark": "EleutherAI lm-evaluation-harness",
+    "cited_by": "A"
+  },
+  {
+    "id": "s027",
+    "label": "tau-bench paper",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "benchmark": "tau-bench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s028",
+    "label": "RAGBench paper",
+    "url": "https://arxiv.org/abs/2407.11005",
+    "benchmark": "RAGBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s029",
+    "label": "AppWorld paper",
+    "url": "https://arxiv.org/abs/2407.18901",
+    "benchmark": "AppWorld",
+    "cited_by": "A"
+  },
+  {
+    "id": "s030",
+    "label": "DynamoLLM HPCA25 paper (Azure 2024 trace)",
+    "url": "https://arxiv.org/abs/2408.00741",
+    "benchmark": "Azure LLM Inference Trace 2024",
+    "cited_by": "AB"
+  },
+  {
+    "id": "s031",
+    "label": "LongBench v2 paper",
+    "url": "https://arxiv.org/abs/2412.15204",
+    "benchmark": "LongBench v2",
+    "cited_by": "BCE"
+  },
+  {
+    "id": "s032",
+    "label": "BrowserArena paper (arXiv, UPenn, Oct 2025, live Arena platform, no repo/dataset linked)",
+    "url": "https://arxiv.org/abs/2510.02418",
+    "benchmark": "BrowserArena",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s033",
+    "label": "2WikiMultihopQA GitHub (CC-BY-4.0 data, Apache repo, 156 stars, Dropbox-only data, no HF)",
+    "url": "https://github.com/Alab-NII/2wikimultihop",
+    "benchmark": "2WikiMultihopQA",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s034",
+    "label": "Azure Public Dataset (LLM Inference Trace 2023/2024: TIMESTAMP+ContextTokens+GeneratedTokens)",
+    "url": "https://github.com/Azure/AzurePublicDataset",
+    "benchmark": "Azure LLM Inference Trace 2023",
+    "cited_by": "ABCDEG"
+  },
+  {
+    "id": "s035",
+    "label": "Azure Functions Trace 2019 (arrival-process / burstiness donor, no tokens)",
+    "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureFunctionsDataset2019.md",
+    "benchmark": "Azure Functions Trace 2019",
+    "cited_by": "DEG"
+  },
+  {
+    "id": "s036",
+    "label": "Azure LLM Inference 2023 columns (TIMESTAMP, ContextTokens, GeneratedTokens; no prompt text per GDPR)",
+    "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md",
+    "benchmark": "Azure LLM Inference Trace 2023",
+    "cited_by": "ABDG"
+  },
+  {
+    "id": "s037",
+    "label": "Azure LLM Inference Dataset 2024 (TIMESTAMP/ContextTokens/GeneratedTokens schema)",
+    "url": "https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md",
+    "benchmark": "Azure LLM Inference Trace 2024",
+    "cited_by": "ABCDG"
+  },
+  {
+    "id": "s038",
+    "label": "Azure repo README (maps datasets to Splitwise ISCA24 / DynamoLLM HPCA25)",
+    "url": "https://github.com/Azure/AzurePublicDataset/blob/master/README.md",
+    "benchmark": "Azure LLM Inference Trace 2023",
+    "cited_by": "A"
+  },
+  {
+    "id": "s039",
+    "label": "lm-eval-harness GitHub (MIT; 13k stars; v0.4.12 May 11 2026; public prompts)",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "benchmark": "EleutherAI lm-evaluation-harness",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s040",
+    "label": "MiniWoB++ repo (388 stars, MIT, Selenium/Gymnasium, 100+ envs, Aug 14 2023)",
+    "url": "https://github.com/Farama-Foundation/miniwob-plusplus",
+    "benchmark": "MiniWoB++",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s041",
+    "label": "BurstGPT real ChatGPT/GPT-4 trace (Timestamp + Session ID + tokens + Log Type)",
+    "url": "https://github.com/HPMLL/BurstGPT",
+    "benchmark": "BurstGPT",
+    "cited_by": "ABDEG"
+  },
+  {
+    "id": "s042",
+    "label": "BurstGPT License",
+    "url": "https://github.com/HPMLL/BurstGPT/blob/main/LICENSE",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s043",
+    "label": "BurstGPT v2.0 Release",
+    "url": "https://github.com/HPMLL/BurstGPT/releases/tag/v2.0",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s044",
+    "label": "OpenAssistant GitHub repo",
+    "url": "https://github.com/LAION-AI/Open-Assistant",
+    "benchmark": "OpenAssistant",
+    "cited_by": "A"
+  },
+  {
+    "id": "s045",
+    "label": "RepoBench repo (208 stars, CC-BY-4.0, eval.py)",
+    "url": "https://github.com/Leolty/RepoBench",
+    "benchmark": "RepoBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s046",
+    "label": "RepoBench repo",
+    "url": "https://github.com/Leolty/repobench",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s047",
+    "label": "LiveCodeBench (single-shot competitive-programming statements)",
+    "url": "https://github.com/LiveCodeBench/LiveCodeBench",
+    "benchmark": "LiveCodeBench",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s048",
+    "label": "ToolBench repo (5.7k stars, Apache-2.0, ToolEval, data on GDrive/Tsinghua, 120k+ solution paths)",
+    "url": "https://github.com/OpenBMB/ToolBench",
+    "benchmark": "ToolBench",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s049",
+    "label": "L-Eval GitHub (GPL-3.0, 405 stars, auto_eval.py/llm_eval.py)",
+    "url": "https://github.com/OpenLMLab/LEval",
+    "benchmark": "L-Eval",
+    "cited_by": "AE"
+  },
+  {
+    "id": "s050",
+    "label": "WorkArena repo (256 stars, v0.5.3 Feb 3 2026, browsergym-workarena, gated HF instances)",
+    "url": "https://github.com/ServiceNow/WorkArena",
+    "benchmark": "WorkArena",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s051",
+    "label": "WorkArena LICENSE (Apache-2.0, ServiceNow 2024)",
+    "url": "https://github.com/ServiceNow/WorkArena/blob/main/LICENSE",
+    "benchmark": "WorkArena",
+    "cited_by": "A"
+  },
+  {
+    "id": "s052",
+    "label": "WebArena Verified repo",
+    "url": "https://github.com/ServiceNow/webarena-verified",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s053",
+    "label": "AppWorld repo (444 stars, Apache-2.0, v0.1.3.post1 Feb 17 2026, ReAct trajectories)",
+    "url": "https://github.com/StonyBrookNLP/appworld",
+    "benchmark": "AppWorld",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s054",
+    "label": "MuSiQue GitHub (CC-BY-4.0, 227 stars, evaluate_v1.0.py)",
+    "url": "https://github.com/StonyBrookNLP/musique",
+    "benchmark": "MuSiQue",
+    "cited_by": "ADE"
+  },
+  {
+    "id": "s055",
+    "label": "AgentBench repo (3.5k stars, Apache-2.0, Docker envs, configs/prompts)",
+    "url": "https://github.com/THUDM/AgentBench",
+    "benchmark": "AgentBench",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s056",
+    "label": "LongBench/LongBench v2 GitHub (MIT, 1.2k stars, pred.py/result.py)",
+    "url": "https://github.com/THUDM/LongBench",
+    "benchmark": "LongBench",
+    "cited_by": "AD"
+  },
+  {
+    "id": "s057",
+    "label": "Alibaba Clusterdata Github Repo",
+    "url": "https://github.com/alibaba/clusterdata",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s058",
+    "label": "Alibaba Cluster Data",
+    "url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-gpu-v2020",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s059",
+    "label": "Alibaba clusterdata GenAI trace v2026 (lora_request_trace.csv; Stable Diffusion not LLM)",
+    "url": "https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2026-GenAI",
+    "benchmark": "Alibaba GenAI Serving Trace (GenTD26)",
+    "cited_by": "DEG"
+  },
+  {
+    "id": "s060",
+    "label": "Qasper official LED baseline eval scripts",
+    "url": "https://github.com/allenai/qasper-led-baseline",
+    "benchmark": "Qasper",
+    "cited_by": "A"
+  },
+  {
+    "id": "s061",
+    "label": "BigCodeBench repo (509 stars, Apache-2.0, v0.2.4 Mar 2 2025)",
+    "url": "https://github.com/bigcode-project/bigcodebench",
+    "benchmark": "BigCodeBench",
+    "cited_by": "AD"
+  },
+  {
+    "id": "s062",
+    "label": "BIG-bench GitHub (archived Apr 17 2026; Apache-2.0; 3.2k stars; 200+ JSON tasks)",
+    "url": "https://github.com/google/BIG-bench",
+    "benchmark": "Big-Bench",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s063",
+    "label": "MATH GitHub (MIT; 1.4k stars; dataset linked off-repo)",
+    "url": "https://github.com/hendrycks/math",
+    "benchmark": "MATH",
+    "cited_by": "A"
+  },
+  {
+    "id": "s064",
+    "label": "Mooncake repo + mooncake_trace.jsonl (timestamp,input_length,output_length,hash_ids; Apache-2.0; 5.6k stars)",
+    "url": "https://github.com/kvcache-ai/Mooncake",
+    "benchmark": "Mooncake Trace",
+    "cited_by": "ABDEG"
+  },
+  {
+    "id": "s065",
+    "label": "Mooncake License",
+    "url": "https://github.com/kvcache-ai/Mooncake/blob/main/LICENSE-APACHE",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s066",
+    "label": "Mooncake Traces Directory",
+    "url": "https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s067",
+    "label": "terminal-bench repo (2.4k stars, Apache-2.0, in-repo tasks, harbor successor)",
+    "url": "https://github.com/laude-institute/terminal-bench",
+    "benchmark": "Terminal-Bench",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s068",
+    "label": "FastChat repo (ShareGPT/Vicuna tooling, LMSYS)",
+    "url": "https://github.com/lm-sys/FastChat",
+    "benchmark": "LMSYS-Chat-1M",
+    "cited_by": "A"
+  },
+  {
+    "id": "s069",
+    "label": "SWE-Lancer original repo (archived Jul 18 2025, redirects to preparedness)",
+    "url": "https://github.com/openai/SWELancer-Benchmark",
+    "benchmark": "SWE-Lancer",
+    "cited_by": "AE"
+  },
+  {
+    "id": "s070",
+    "label": "GSM8K GitHub (archived Apr 8 2026; 1.4k stars; 8.5K problems w/ CoT)",
+    "url": "https://github.com/openai/grade-school-math",
+    "benchmark": "GSM8K",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s071",
+    "label": "HumanEval (164 single-shot function-completion prompts; input 50-300 tok MEASURED)",
+    "url": "https://github.com/openai/human-eval",
+    "benchmark": "HumanEval",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s072",
+    "label": "OpenAI preparedness repo (active SWE-Lancer eval, MIT, 1.2k stars)",
+    "url": "https://github.com/openai/preparedness",
+    "benchmark": "SWE-Lancer",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s073",
+    "label": "SWE-bench repo (issue + repo context, agentic harness needed)",
+    "url": "https://github.com/princeton-nlp/SWE-bench",
+    "benchmark": "SWE-bench",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s074",
+    "label": "SWE-bench Pro open-source repo (447 stars, MIT, eval scripts)",
+    "url": "https://github.com/scaleapi/SWE-bench_Pro-os",
+    "benchmark": "SWE-bench Pro",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s075",
+    "label": "GitHub repo search for BrowserArena: 0 results",
+    "url": "https://github.com/search?q=BrowserArena+benchmark+LLM&type=repositories",
+    "benchmark": "",
+    "cited_by": "A"
+  },
+  {
+    "id": "s076",
+    "label": "DevEval (prefill needs tar reassembly; no license on GitHub)",
+    "url": "https://github.com/seketeam/DevEval",
+    "benchmark": "DevEval",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s077",
+    "label": "tau-bench repo (1.3k stars, MIT, run.py, historical_trajectories, deprecated->tau2)",
+    "url": "https://github.com/sierra-research/tau-bench",
+    "benchmark": "tau-bench",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s078",
+    "label": "tau2-bench successor",
+    "url": "https://github.com/sierra-research/tau2-bench",
+    "benchmark": "tau-bench",
+    "cited_by": "BC"
+  },
+  {
+    "id": "s079",
+    "label": "HELM GitHub (Apache-2.0; 2.8k stars; v0.5.16 Apr 30 2026; maintenance mode June 1 2026)",
+    "url": "https://github.com/stanford-crfm/helm",
+    "benchmark": "HELM",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s080",
+    "label": "BBH source repo: 404 on all fetch attempts (unverifiable directly)",
+    "url": "https://github.com/suzgun/BIG-Bench-Hard",
+    "benchmark": "BBH (BIG-Bench-Hard)",
+    "cited_by": "A"
+  },
+  {
+    "id": "s081",
+    "label": "UltraChat GitHub repo",
+    "url": "https://github.com/thunlp/UltraChat",
+    "benchmark": "UltraChat",
+    "cited_by": "A"
+  },
+  {
+    "id": "s082",
+    "label": "ShareGPT vLLM benchmark_serving payload source (Poisson arrivals synthesized)",
+    "url": "https://github.com/vllm-project/vllm/blob/main/benchmarks/README.md",
+    "benchmark": "ShareGPT (vLLM benchmark_serving source)",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s083",
+    "label": "BrowserArena at web-arena-x: HTTP 404, repo does not exist",
+    "url": "https://github.com/web-arena-x/BrowserArena",
+    "benchmark": "BrowserArena",
+    "cited_by": "A"
+  },
+  {
+    "id": "s084",
+    "label": "VisualWebArena repo (910 tasks multimodal, 233 human Playwright recordings)",
+    "url": "https://github.com/web-arena-x/visualwebarena",
+    "benchmark": "VisualWebArena",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s085",
+    "label": "WebArena repo (1.5k stars, Apache-2.0, 812 tasks, self-host Docker, 170 human recordings)",
+    "url": "https://github.com/web-arena-x/webarena",
+    "benchmark": "WebArena",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s086",
+    "label": "OSWorld repo (2.9k stars, Apache-2.0, VM required, v0.1.16 Jun 26 2024)",
+    "url": "https://github.com/xlang-ai/OSWorld",
+    "benchmark": "OSWorld",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s087",
+    "label": "ToolBench HF mirror (api_list, query_id, answer trees with Action nodes)",
+    "url": "https://huggingface.co/datasets/Adorg/ToolBench",
+    "benchmark": "ToolBench",
+    "cited_by": "BCD"
+  },
+  {
+    "id": "s088",
+    "label": "ToolBench sample answer tree",
+    "url": "https://huggingface.co/datasets/Adorg/ToolBench/resolve/main/answer/G1_answer/10015_ChatGPT_DFS_woFilter_w2.json",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s089",
+    "label": "ToolBench demo query file",
+    "url": "https://huggingface.co/datasets/Adorg/ToolBench/resolve/main/instruction/inference_query_demo.json",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s090",
+    "label": "MATH-500 verified mirror (public; 500 test rows; problem/solution/answer)",
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500",
+    "benchmark": "MATH",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s091",
+    "label": "UltraChat 200k HF card (mit, 515311 rows, user/assistant roles)",
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+    "benchmark": "UltraChat",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s092",
+    "label": "UltraChat 200k commit history (top commit Oct 16 2024)",
+    "url": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k/commits/main",
+    "benchmark": "UltraChat",
+    "cited_by": "A"
+  },
+  {
+    "id": "s093",
+    "label": "GPQA HF card (GATED contact-info agreement; CC-BY-4.0; 448 MCQs)",
+    "url": "https://huggingface.co/datasets/Idavidrein/gpqa",
+    "benchmark": "GPQA",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s094",
+    "label": "L-Eval canonical HF dataset (gpl-3.0, public, input 71.6k-116k chars, gold answers)",
+    "url": "https://huggingface.co/datasets/L4NLP/LEval",
+    "benchmark": "L-Eval",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s095",
+    "label": "DevEval HF dataset (cc-by-4.0, 2.59GB, broken viewer)",
+    "url": "https://huggingface.co/datasets/LJ0815/DevEval",
+    "benchmark": "DevEval",
+    "cited_by": "A"
+  },
+  {
+    "id": "s096",
+    "label": "AppWorld HF mirror (num_apps/num_apis/num_api_calls fields)",
+    "url": "https://huggingface.co/datasets/LukaszTP/AppWorld-Tasks",
+    "benchmark": "AppWorld",
+    "cited_by": "BCDE"
+  },
+  {
+    "id": "s097",
+    "label": "oasst1 HF card (apache-2.0, 88.8k rows, message-tree structure)",
+    "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+    "benchmark": "OpenAssistant",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s098",
+    "label": "oasst2 HF card (apache-2.0, 135k rows, message-tree structure)",
+    "url": "https://huggingface.co/datasets/OpenAssistant/oasst2",
+    "benchmark": "OpenAssistant",
+    "cited_by": "A"
+  },
+  {
+    "id": "s099",
+    "label": "L-Eval HF mirror (HTTP 401 inaccessible)",
+    "url": "https://huggingface.co/datasets/OpenLMLab/LEval",
+    "benchmark": "L-Eval",
+    "cited_by": "A"
+  },
+  {
+    "id": "s100",
+    "label": "ShareGPT52K HF card (cc0-1.0, ~52k/90k convs, viewer error)",
+    "url": "https://huggingface.co/datasets/RyokoAI/ShareGPT52K",
+    "benchmark": "ShareGPT",
+    "cited_by": "A"
+  },
+  {
+    "id": "s101",
+    "label": "SWE-bench HF dataset",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench",
+    "benchmark": "SWE-bench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s102",
+    "label": "SWE-bench Verified (problem_statement+patch+created_at; agentic harness for loop)",
+    "url": "https://huggingface.co/datasets/SWE-bench/SWE-bench_Verified",
+    "benchmark": "SWE-bench Verified",
+    "cited_by": "AD"
+  },
+  {
+    "id": "s103",
+    "label": "SWE-bench Pro HF dataset (731 rows, public, problem_statement + gold patch)",
+    "url": "https://huggingface.co/datasets/ScaleAI/SWE-bench_Pro",
+    "benchmark": "SWE-bench Pro",
+    "cited_by": "A"
+  },
+  {
+    "id": "s104",
+    "label": "LongBench HF card (no license shown, viewer disabled, 4750 ex, 5k-15k words)",
+    "url": "https://huggingface.co/datasets/THUDM/LongBench",
+    "benchmark": "LongBench",
+    "cited_by": "ABCE"
+  },
+  {
+    "id": "s105",
+    "label": "LongBench v2 HF card (apache-2.0, 503 MCQ, 8k-2M words, viewer TooBigContentError)",
+    "url": "https://huggingface.co/datasets/THUDM/LongBench-v2",
+    "benchmark": "LongBench v2",
+    "cited_by": "ABE"
+  },
+  {
+    "id": "s106",
+    "label": "MMLU-Pro HF card (MIT; public; 12102 rows; cot_content; updated 2026.03.11)",
+    "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro",
+    "benchmark": "MMLU-Pro",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s107",
+    "label": "MultiNews (multi-doc cluster summarization; LILY LAB non-commercial license)",
+    "url": "https://huggingface.co/datasets/alexfabbri/multi_news",
+    "benchmark": "MultiNews",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s108",
+    "label": "WildChat-1M (per-turn timestamps + hashed_ip tenant + conversation_hash session)",
+    "url": "https://huggingface.co/datasets/allenai/WildChat-1M",
+    "benchmark": "WildChat",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s109",
+    "label": "WildChat-1M README (ODC-BY, not gated; full version gated; 837989 examples; updated 2024-10-17)",
+    "url": "https://huggingface.co/datasets/allenai/WildChat-1M/blob/main/README.md",
+    "benchmark": "WildChat",
+    "cited_by": "A"
+  },
+  {
+    "id": "s110",
+    "label": "Qasper HF (cc-by-4.0, 1585 papers/5049 Qs, full_text contexts, gold answers)",
+    "url": "https://huggingface.co/datasets/allenai/qasper",
+    "benchmark": "Qasper",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s111",
+    "label": "ShareGPT Vicuna unfiltered HF card (apache-2.0, ~53k convs, 2048-token chunks, English-only)",
+    "url": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
+    "benchmark": "ShareGPT",
+    "cited_by": "ABDEG"
+  },
+  {
+    "id": "s112",
+    "label": "BigCodeBench (Complete + Instruct prompt variants)",
+    "url": "https://huggingface.co/datasets/bigcode/bigcodebench",
+    "benchmark": "",
+    "cited_by": "E"
+  },
+  {
+    "id": "s113",
+    "label": "BigCodeBench-hard HF dataset",
+    "url": "https://huggingface.co/datasets/bigcode/bigcodebench-hard",
+    "benchmark": "BigCodeBench",
+    "cited_by": "AB"
+  },
+  {
+    "id": "s114",
+    "label": "MMLU HF card (MIT; public; 231400 rows / 14042 test)",
+    "url": "https://huggingface.co/datasets/cais/mmlu",
+    "benchmark": "MMLU",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s115",
+    "label": "arXiv summarization HF card (no license shown; avg tokens 6038/299; 431826 rows)",
+    "url": "https://huggingface.co/datasets/ccdv/arxiv-summarization",
+    "benchmark": "arXiv summarization",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s116",
+    "label": "GovReport summarization (very long reports + long summaries)",
+    "url": "https://huggingface.co/datasets/ccdv/govreport-summarization",
+    "benchmark": "GovReport summarization",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s117",
+    "label": "PubMed summarization (~3043 ws-tok article / ~215 ws-tok abstract MEASURED)",
+    "url": "https://huggingface.co/datasets/ccdv/pubmed-summarization",
+    "benchmark": "PubMed summarization",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s118",
+    "label": "NarrativeQA HF (apache-2.0, 28668 rows, full-story contexts ~41k tokens)",
+    "url": "https://huggingface.co/datasets/deepmind/narrativeqa",
+    "benchmark": "NarrativeQA",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s119",
+    "label": "MuSiQue HF mirror (NO dataset card, 22355 rows viewable)",
+    "url": "https://huggingface.co/datasets/dgslibisey/MuSiQue",
+    "benchmark": "MuSiQue",
+    "cited_by": "AB"
+  },
+  {
+    "id": "s120",
+    "label": "GAIA HF dataset (GATED contact-sharing + no-reshare, ~450+ Qs, no license shown)",
+    "url": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+    "benchmark": "GAIA",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s121",
+    "label": "RAGBench HF (cc-by-4.0, 12 subsets, rows viewable)",
+    "url": "https://huggingface.co/datasets/galileo-ai/ragbench",
+    "benchmark": "RAGBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s122",
+    "label": "MBPP (974/427 short NL programming prompts; 30-200 tok MEASURED)",
+    "url": "https://huggingface.co/datasets/google-research-datasets/mbpp",
+    "benchmark": "MBPP",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s123",
+    "label": "Natural Questions HF (cc-by-sa-3.0, 144GB, full-wiki-page contexts)",
+    "url": "https://huggingface.co/datasets/google-research-datasets/natural_questions",
+    "benchmark": "Natural Questions",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s124",
+    "label": "HotpotQA HF (cc-by-sa-4.0, 203k rows, context/supporting_facts visible)",
+    "url": "https://huggingface.co/datasets/hotpotqa/hotpot_qa",
+    "benchmark": "HotpotQA",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s125",
+    "label": "BookSum HF card (BSD-3-Clause; 12515 rows; chapter/book summaries)",
+    "url": "https://huggingface.co/datasets/kmfoda/booksum",
+    "benchmark": "BookSum",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s126",
+    "label": "GovReport alt mirror (cc-by-4.0; 19.5k rows)",
+    "url": "https://huggingface.co/datasets/launch/gov_report",
+    "benchmark": "GovReport summarization",
+    "cited_by": "AB"
+  },
+  {
+    "id": "s127",
+    "label": "LiveCodeBench HF dataset (public, cc, viewer disabled)",
+    "url": "https://huggingface.co/datasets/livecodebench/code_generation_lite",
+    "benchmark": "LiveCodeBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s128",
+    "label": "LMSYS Chatbot Arena Conversations (tstamp + multi-turn text + session)",
+    "url": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations",
+    "benchmark": "LMSYS Chatbot Arena Conversations",
+    "cited_by": "DEG"
+  },
+  {
+    "id": "s129",
+    "label": "LMSYS-Chat-1M HF card (gated, custom license, 1M convs, 69.5/214.5 avg prompt/response tokens, 2.0 avg turns, 154 langs)",
+    "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+    "benchmark": "LMSYS-Chat-1M",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s130",
+    "label": "BBH BIG-Bench-Hard (6511 rows / 23 tasks; shared CoT exemplar prefix)",
+    "url": "https://huggingface.co/datasets/lukaemon/bbh",
+    "benchmark": "",
+    "cited_by": "E"
+  },
+  {
+    "id": "s131",
+    "label": "BurstGPT Dataset",
+    "url": "https://huggingface.co/datasets/lzzmm/BurstGPT",
+    "benchmark": "",
+    "cited_by": "G"
+  },
+  {
+    "id": "s132",
+    "label": "TriviaQA HF (license unknown, 847k rows, 34.8GB, evidence docs)",
+    "url": "https://huggingface.co/datasets/mandarjoshi/trivia_qa",
+    "benchmark": "TriviaQA",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s133",
+    "label": "BBH HF mirror (MIT; public; 6511 rows; 23 tasks; input/target)",
+    "url": "https://huggingface.co/datasets/maveriq/bigbenchhard",
+    "benchmark": "BBH (BIG-Bench-Hard)",
+    "cited_by": "ABD"
+  },
+  {
+    "id": "s134",
+    "label": "GSM8K (8.5K grade-school problems w/ CoT; repo archived Apr 2026)",
+    "url": "https://huggingface.co/datasets/openai/gsm8k",
+    "benchmark": "",
+    "cited_by": "E"
+  },
+  {
+    "id": "s135",
+    "label": "SWE-bench (issue + repo context; agentic harness)",
+    "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench",
+    "benchmark": "",
+    "cited_by": "E"
+  },
+  {
+    "id": "s136",
+    "label": "SWE-bench Verified (500 human-verified deterministic tasks)",
+    "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified",
+    "benchmark": "",
+    "cited_by": "BCE"
+  },
+  {
+    "id": "s137",
+    "label": "RAGBench HF (12 subsets, 100K rows, question + 4 documents + response)",
+    "url": "https://huggingface.co/datasets/rungalileo/ragbench",
+    "benchmark": "RAGBench",
+    "cited_by": "ABCDE"
+  },
+  {
+    "id": "s138",
+    "label": "UltraChat (stingning) HF card (mit, ~949k dialogues, ChatGPT-generated)",
+    "url": "https://huggingface.co/datasets/stingning/ultrachat",
+    "benchmark": "UltraChat",
+    "cited_by": "A"
+  },
+  {
+    "id": "s139",
+    "label": "RepoBench (context list path/snippet/tokenized_snippet; next-line target 10-150 tok MEASURED)",
+    "url": "https://huggingface.co/datasets/tianyang/repobench-c",
+    "benchmark": "",
+    "cited_by": "E"
+  },
+  {
+    "id": "s140",
+    "label": "RepoBench-P HF (context list with path/snippet/import_statement)",
+    "url": "https://huggingface.co/datasets/tianyang/repobench-p",
+    "benchmark": "RepoBench",
+    "cited_by": "BCD"
+  },
+  {
+    "id": "s141",
+    "label": "RepoBench Python v1.1 HF dataset",
+    "url": "https://huggingface.co/datasets/tianyang/repobench_python_v1.1",
+    "benchmark": "RepoBench",
+    "cited_by": "A"
+  },
+  {
+    "id": "s142",
+    "label": "OSWorld V2 gated tasks HF",
+    "url": "https://huggingface.co/datasets/xlangai/osworld_v2_tasks",
+    "benchmark": "OSWorld",
+    "cited_by": "C"
+  },
+  {
+    "id": "s143",
+    "label": "LongBench v2 (503 MCQ, context up to 2M words)",
+    "url": "https://huggingface.co/datasets/zai-org/LongBench-v2",
+    "benchmark": "LongBench v2",
+    "cited_by": "CD"
+  },
+  {
+    "id": "s144",
+    "label": "LMSYS-Chat-1M paper page",
+    "url": "https://huggingface.co/papers/2309.11998",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s145",
+    "label": "LongBench v2 project page",
+    "url": "https://longbench2.github.io",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s146",
+    "label": "OSWorld project site",
+    "url": "https://os-world.github.io/",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s147",
+    "label": "AppWorld PyPI",
+    "url": "https://pypi.org/project/appworld/",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s148",
+    "label": "WebArena Verified PyPI (sites/task_id/intent/start_urls schema)",
+    "url": "https://pypi.org/project/webarena-verified/",
+    "benchmark": "",
+    "cited_by": "BC"
+  },
+  {
+    "id": "s149",
+    "label": "Natural Questions paper",
+    "url": "https://research.google/pubs/pub47761/",
+    "benchmark": "Natural Questions",
+    "cited_by": "A"
+  },
+  {
+    "id": "s150",
+    "label": "Splitwise paper (Azure trace usage)",
+    "url": "https://www.microsoft.com/en-us/research/publication/splitwise-efficient-generative-llm-inference-using-phase-splitting/",
+    "benchmark": "Azure LLM Inference Trace 2023",
+    "cited_by": "AB"
+  },
+  {
+    "id": "s151",
+    "label": "SWE-bench site",
+    "url": "https://www.swebench.com/",
+    "benchmark": "",
+    "cited_by": "C"
+  },
+  {
+    "id": "s152",
+    "label": "Mooncake FAST25 paper (prefix-cache trace + disaggregated serving)",
+    "url": "https://www.usenix.org/system/files/fast25-qin.pdf",
+    "benchmark": "Mooncake Trace",
+    "cited_by": "ABDE"
+  },
+  {
+    "id": "s153",
+    "label": "Splitwise Artifact Traces",
+    "url": "https://zenodo.org/records/11003049",
+    "benchmark": "",
+    "cited_by": "G"
+  }
+]
