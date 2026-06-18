@@ -1,0 +1,158 @@
+[
+  {
+    "key": "LongBench-narrativeqa",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "narrativeqa",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 7973,
+      "p50": 31324,
+      "p90": 59771,
+      "p99": 65288,
+      "max": 65293,
+      "mean": 29499
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 3,
+      "p50": 6,
+      "p90": 13,
+      "p99": 22,
+      "max": 34,
+      "mean": 8
+    }
+  },
+  {
+    "key": "LongBench-hotpotqa",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "hotpotqa",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 1771,
+      "p50": 14399,
+      "p90": 16286,
+      "p99": 16341,
+      "max": 16347,
+      "mean": 13051
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 3,
+      "p50": 5,
+      "p90": 8,
+      "p99": 20,
+      "max": 30,
+      "mean": 6
+    }
+  },
+  {
+    "key": "LongBench-gov_report",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "gov_report",
+    "split": "test",
+    "input_tokens": {
+      "n": 120,
+      "min": 2019,
+      "p50": 8740,
+      "p90": 18330,
+      "p99": 42706,
+      "max": 51394,
+      "mean": 10897
+    },
+    "output_tokens": {
+      "n": 120,
+      "min": 193,
+      "p50": 723,
+      "p90": 895,
+      "p99": 1406,
+      "max": 1459,
+      "mean": 732
+    }
+  },
+  {
+    "key": "LongBench-multifieldqa_en",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "multifieldqa_en",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 1298,
+      "p50": 7006,
+      "p90": 11521,
+      "p99": 14182,
+      "max": 14962,
+      "mean": 6951
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 3,
+      "p50": 15,
+      "p90": 28,
+      "p99": 53,
+      "max": 107,
+      "mean": 17
+    }
+  },
+  {
+    "key": "LongBench-qasper",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "qasper",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 1855,
+      "p50": 4509,
+      "p90": 7654,
+      "p99": 18445,
+      "max": 21129,
+      "mean": 5012
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 3,
+      "p50": 26,
+      "p90": 87,
+      "p99": 312,
+      "max": 491,
+      "mean": 42
+    }
+  },
+  {
+    "key": "LongBench-2wikimqa",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "THUDM/LongBench",
+    "config": "2wikimqa",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 932,
+      "p50": 6334,
+      "p90": 12286,
+      "p99": 15750,
+      "max": 16142,
+      "mean": 6906
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 3,
+      "p50": 6,
+      "p90": 9,
+      "p99": 14,
+      "max": 24,
+      "mean": 6
+    }
+  }
+]

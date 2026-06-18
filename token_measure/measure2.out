@@ -1,0 +1,10 @@
+OK  LongBench-narrativeqa    in P50= 31324 P99=  65288 max=  65293
+OK  LongBench-hotpotqa       in P50= 14399 P99=  16341 max=  16347
+OK  LongBench-gov_report     in P50=  8740 P99=  42706 max=  51394
+OK  LongBench-multifieldqa_en in P50=  7006 P99=  14182 max=  14962
+OK  LongBench-qasper         in P50=  4509 P99=  18445 max=  21129
+OK  LongBench-2wikimqa       in P50=  6334 P99=  15750 max=  16142
+ERR RepoBench {'cross_file_random', 'in_file', 'cross_file_first'}
+ERR MultiNews Dataset scripts are no longer supported, but found multi_news.py
+
+WROTE measured2.json: 6 entries

@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+OK  MultiNews              in P50=  1611 P99=  18702 max=  35752
+RepoBench cols: ['repo_name', 'file_path', 'context', 'import_statement', 'token_num', 'cropped_code', 'all_code', 'next_line']
+OK  RepoBench-py           in P50=   262 P99=   1085 max=   1157
+WROTE measured5.json: 2

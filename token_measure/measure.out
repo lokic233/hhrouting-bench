@@ -1,0 +1,25 @@
+OK  GSM8K                    in P50=    54 P99=    123 max=    132 | out P50=91
+OK  MATH-500                 in P50=    49 P99=    343 max=    756 | out P50=150
+OK  HumanEval                in P50=   117 P99=    311 max=    391 | out P50=46
+OK  MBPP                     in P50=    16 P99=     37 max=     47 | out P50=46
+ERR BBH-boolean              Dataset scripts are no longer supported, but found bigbenchhard.py
+ERR LongBench-narrativeqa    Dataset scripts are no longer supported, but found LongBench.py
+ERR LongBench-hotpotqa       Dataset scripts are no longer supported, but found LongBench.py
+ERR LongBench-gov_report     Dataset scripts are no longer supported, but found LongBench.py
+OK  HotpotQA                 in P50=    20 P99=     43 max=     52 | out P50=3
+OK  TriviaQA-rc              in P50=    14 P99=     25 max=     26 | out P50=166
+OK  MuSiQue                  in P50=    15 P99=     27 max=     31 | out P50=4
+ERR Qasper                   Dataset scripts are no longer supported, but found qasper.py
+OK  NarrativeQA              in P50=    44 P99=    102 max=    115 | out P50=49
+OK  arXiv-sum                in P50=  6516 P99=  21108 max=  26625 | out P50=182
+OK  PubMed-sum               in P50=  3598 P99=  12778 max=  12943 | out P50=251
+OK  GovReport-sum            in P50=  8656 P99=  21751 max=  22192 | out P50=706
+ERR MultiNews                Dataset scripts are no longer supported, but found multi_news.py
+OK  RAGBench-hotpotqa        in P50=    19 P99=     42 max=     44 | out P50=25
+OK  SWE-bench-Verified       in P50=   268 P99=   2164 max=   2407 | out P50=220
+OK  SWE-bench-Lite           in P50=   264 P99=   2301 max=   6939 | out P50=206
+ERR RepoBench-py             BuilderConfig 'cross_file_first' not found. Available: ['default']
+ERR LiveCodeBench            Dataset scripts are no longer supported, but found code_generation_lite.py
+ERR GAIA                     Dataset 'gaia-benchmark/GAIA' is a gated dataset on the Hub. You must be authenticated to 
+
+WROTE measured.json: 14/23 ok

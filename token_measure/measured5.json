@@ -1,0 +1,53 @@
+[
+  {
+    "key": "MultiNews",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "multi_news",
+    "split": "test",
+    "input_tokens": {
+      "n": 150,
+      "min": 138,
+      "p50": 1611,
+      "p90": 4144,
+      "p99": 18702,
+      "max": 35752,
+      "mean": 2605
+    },
+    "output_tokens": {
+      "n": 150,
+      "min": 98,
+      "p50": 274,
+      "p90": 365,
+      "p99": 403,
+      "max": 428,
+      "mean": 269
+    }
+  },
+  {
+    "key": "RepoBench-py",
+    "tokenizer": "cl100k_base",
+    "status": "ok",
+    "hf_id": "tianyang/repobench_python_v1.1",
+    "config": "cross_file_first",
+    "split": "test",
+    "input_tokens": {
+      "n": 200,
+      "min": 11,
+      "p50": 262,
+      "p90": 742,
+      "p99": 1085,
+      "max": 1157,
+      "mean": 338
+    },
+    "output_tokens": {
+      "n": 200,
+      "min": 4,
+      "p50": 12,
+      "p90": 21,
+      "p99": 38,
+      "max": 51,
+      "mean": 13
+    }
+  }
+]

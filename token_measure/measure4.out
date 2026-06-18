@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 3000 examples [00:00, 25070.36 examples/s]Generating train split: 6017 examples [00:00, 10363.44 examples/s]Generating train split: 8017 examples [00:00, 8661.16 examples/s] Generating train split: 8033 examples [00:00, 9616.94 examples/s]
+ERR RepoBench {'cross_file_first', 'cross_file_random', 'in_file'}
+ERR MultiNews no parquet; files sample: ['.gitattributes', 'README.md', 'data/test.src.cleaned', 'data/test.tgt', 'data/train.src.cleaned']
+WROTE measured4.json: 0
