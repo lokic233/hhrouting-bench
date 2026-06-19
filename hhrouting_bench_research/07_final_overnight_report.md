@@ -495,3 +495,44 @@ only exists by running a harness. Class = Section 7.)
 *Every benchmark claim in this report traces to a peer deliverable row and its cited URL (see
 `sources.json`). Uncertainty is labeled "insufficient evidence"; estimates are labeled ESTIMATE.
 The one unverified structural gap — the missing Agent F red-team — is flagged in Sections 10–11.*
+
+
+---
+
+## 12. MEASURED DATA ADDENDUM (post-committee, real payloads + traces)
+
+*Added after the committee run: the team's token ranges were mostly estimates. This addendum replaces
+estimates with MEASURED distributions from actual payloads (tiktoken cl100k) and real production traces.*
+
+### 12.1 Coverage
+- **25 benchmarks** tokenized from real payloads → `02b_measured_token_distributions.csv`
+- **3 chat/agent datasets** profiled (gated, via HF token): WildChat-1M `02c`, LMSYS-Chat-1M `02d`, GAIA `02e`
+- **WildChat-1M arrival process** extracted from real timestamps → `02f` (the only chat dataset with arrivals)
+- **6 production traces** downloaded + measured → `02g` (the direct-trace gold standard)
+
+### 12.2 The 7 real arrival traces (the scarce resource, now measured)
+| trace | n requests | input P50 | output P50 | special signal |
+|---|--:|--:|--:|---|
+| WildChat-1M | 237k | 19 (msg) | 275 | timestamps + tenant IP + 25d window |
+| Azure-LLM-conv-2023 | 19,366 | 1020 | 129 | real arrivals, balanced |
+| Azure-LLM-code-2023 | 8,819 | 1469 | 13 | autocomplete: prefill-heavy, Fano/s=13.2 |
+| Azure-LMM-multimodal-2024 | 1,000,000 | 1124 | 98 | 50% carry images |
+| BurstGPT | 1,404,294 | 262 | 36 | ChatGPT+GPT-4 mix, Fano/s=2.0 |
+| Mooncake-conversation | 12,031 | 6909 | 350 | prefix hit-ratio 0.366 |
+| Mooncake-toolagent | 23,608 | 6346 | 30 | prefix hit-ratio 0.553 (tool loop) |
+
+### 12.3 What changed vs the committee's estimates
+- **Estimates were directionally right but imprecise.** E.g. GSM8K input est 50-200 → measured P50=54/P99=123;
+  LongBench-narrativeqa est 5-30k → measured P50=31k/max=65k (the long tail was under-counted).
+- **Prefix reuse is now MEASURED, not assumed.** Mooncake conv 36.6% / tool 55.3% block-reuse — the committee
+  marked many benchmarks 'prefix_reuse=high' by inference; only Mooncake actually proves it from hash_ids.
+- **Arrivals are no longer hypothetical.** WildChat + Azure + BurstGPT give measured inter-arrival + burstiness
+  (Fano 1.3-13.2) + diurnal — the benchmark's arrival process is now evidence-grounded.
+
+### 12.4 Updated build recipe (measured-data-first)
+1. **Arrivals:** replay WildChat (chat), Azure-code (autocomplete), Azure-MM (multimodal), Mooncake (prefix/tool), BurstGPT (scale). No synthetic arrival process needed for these classes.
+2. **Tokens:** draw per-request input/output from the measured 02b/02g distributions for the matching class.
+3. **Prefix/KV:** use Mooncake hash_ids directly for prefix-reuse routing; for others, the 02b shapes + WildChat session model.
+4. **Still synthetic (justified):** tool-call LOOP timing (GAIA/agent), cross-tenant multiplexing at scale, P/D-disaggregation labels, LoRA/adapter ids, cancellation. See §9.
+
+*Artifacts: `02b`–`02g` (+ `02f_wildchat_arrival.png`, `02g_workload_landscape.png`). Harnesses in `tools/token_measure/`.*

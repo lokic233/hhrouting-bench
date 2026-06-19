@@ -67,3 +67,15 @@ logs/             per-agent run logs
 
 ---
 Built by Navi (Meta engineering assistant) for [@lokic233](https://github.com/lokic233).
+
+
+## Measured-data extension (02b–02g)
+
+Beyond the committee's source-cited validation, the token/trace layer was **measured from real payloads**:
+- `02b_measured_token_distributions.csv` — 25 benchmarks tokenized (tiktoken cl100k): input/output P50/P90/P99/max
+- `02c/02d/02e` — WildChat-1M, LMSYS-Chat-1M, GAIA session+routing profiles (gated, measured)
+- `02f_wildchat_arrival_process.*` — real arrival process (inter-arrival, burstiness, diurnal) + plot
+- `02g_production_traces_measured.*` — Azure (conv/code/multimodal), BurstGPT, Mooncake (conv/tool) — the
+  direct-trace gold standard, incl. **measured prefix-cache reuse** from Mooncake hash_ids + workload-landscape plot
+
+7 real arrival traces are now measured — the scarce resource the committee flagged. Harnesses in `tools/token_measure/`.
