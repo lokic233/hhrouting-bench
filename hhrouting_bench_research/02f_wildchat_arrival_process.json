@@ -1,0 +1,89 @@
+{
+  "dataset": "WildChat-1M (shards 0-3, dedup)",
+  "n_conversations": 237264,
+  "time_span_days": 75.3,
+  "window": [
+    "2023-04-09 00:02:53+00:00",
+    "2023-06-23 07:57:07+00:00"
+  ],
+  "source_url": "https://huggingface.co/datasets/allenai/WildChat-1M",
+  "license": "ODC-BY",
+  "tz": "UTC",
+  "mean_arrival_rate_per_sec": 0.0365,
+  "mean_arrival_rate_per_min": 2.19,
+  "inter_arrival_seconds": {
+    "n": 237263,
+    "min": 0.0,
+    "p10": 3.0,
+    "p50": 17.0,
+    "p90": 63.0,
+    "p99": 150.38000000000466,
+    "max": 1251.0,
+    "mean": 27.431390482291803
+  },
+  "requests_per_minute": {
+    "n": 108476,
+    "min": 0.0,
+    "p10": 0.0,
+    "p50": 2.0,
+    "p90": 4.0,
+    "p99": 7.0,
+    "max": 15.0,
+    "mean": 2.1872487923596005,
+    "description": "conv starts per 1-min bin"
+  },
+  "requests_per_hour": {
+    "n": 1808,
+    "min": 12.0,
+    "p10": 73.0,
+    "p50": 126.0,
+    "p90": 195.0,
+    "p99": 277.0,
+    "max": 427.0,
+    "mean": 131.23008849557522,
+    "description": "conv starts per 1-hour bin"
+  },
+  "burstiness": {
+    "cv_per_minute": 0.778,
+    "fano_factor_per_minute": 1.32,
+    "peak_to_mean_ratio_hourly": 3.25,
+    "interpretation": "CV>1 and Fano>>1 => bursty/over-dispersed vs Poisson (Poisson CV=1,Fano=1)"
+  },
+  "diurnal_normalized_by_hour_utc": {
+    "0": 0.76,
+    "1": 0.84,
+    "2": 0.96,
+    "3": 0.91,
+    "4": 0.75,
+    "5": 0.83,
+    "6": 1.05,
+    "7": 1.2,
+    "8": 1.29,
+    "9": 1.3,
+    "10": 1.1,
+    "11": 1.11,
+    "12": 1.23,
+    "13": 1.2,
+    "14": 1.2,
+    "15": 1.18,
+    "16": 1.07,
+    "17": 0.99,
+    "18": 0.98,
+    "19": 0.93,
+    "20": 0.86,
+    "21": 0.76,
+    "22": 0.75,
+    "23": 0.73
+  },
+  "session_rearrival_gap_seconds_top_tenants": {
+    "n": 23268,
+    "min": 0.0,
+    "p10": 44.0,
+    "p50": 921.5,
+    "p90": 96192.4,
+    "p99": 1468893.4999999916,
+    "max": 5532343.0,
+    "mean": 66595.22730789066
+  },
+  "is_poisson": "NO \u2014 overdispersed (see Fano)"
+}
