@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 .hf_token_hhrouting
 token_measure/
+token_measure/prod_traces/

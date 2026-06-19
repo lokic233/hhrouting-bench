@@ -1,0 +1,299 @@
+{
+  "Azure-LLM-conv-2023": {
+    "source": "https://github.com/Azure/AzurePublicDataset",
+    "trace_type": "direct (real arrivals+token counts)",
+    "n_requests": 19366,
+    "span_minutes": 58.4,
+    "mean_rate_per_s": 5.53,
+    "input_tokens_ContextTokens": {
+      "n": 19366,
+      "min": 2.0,
+      "p10": 207.0,
+      "p50": 1020.0,
+      "p90": 2734.5,
+      "p99": 4142.0,
+      "max": 14050.0,
+      "mean": 1154.7
+    },
+    "output_tokens_GeneratedTokens": {
+      "n": 19366,
+      "min": 7.0,
+      "p10": 54.0,
+      "p50": 129.0,
+      "p90": 424.0,
+      "p99": 601.0,
+      "max": 1000.0,
+      "mean": 211.1
+    },
+    "inter_arrival_s": {
+      "n": 19365,
+      "min": 2e-06,
+      "p10": 0.0,
+      "p50": 0.1,
+      "p90": 0.4,
+      "p99": 0.9,
+      "max": 4.314579,
+      "mean": 0.2
+    },
+    "burstiness_per_sec": {
+      "cv": 0.49,
+      "fano": 1.33,
+      "peak_to_mean": 3.44
+    },
+    "io_ratio_p50": 7.91
+  },
+  "Azure-LLM-code-2023": {
+    "source": "https://github.com/Azure/AzurePublicDataset",
+    "trace_type": "direct (real arrivals+token counts)",
+    "n_requests": 8819,
+    "span_minutes": 57.3,
+    "mean_rate_per_s": 2.567,
+    "input_tokens_ContextTokens": {
+      "n": 8819,
+      "min": 3.0,
+      "p10": 147.0,
+      "p50": 1469.0,
+      "p90": 5187.6,
+      "p99": 7436.0,
+      "max": 7437.0,
+      "mean": 2047.8
+    },
+    "output_tokens_GeneratedTokens": {
+      "n": 8819,
+      "min": 6.0,
+      "p10": 7.0,
+      "p50": 13.0,
+      "p90": 55.0,
+      "p99": 251.5,
+      "max": 1899.0,
+      "mean": 27.9
+    },
+    "inter_arrival_s": {
+      "n": 8818,
+      "min": 6e-06,
+      "p10": 0.0,
+      "p50": 0.1,
+      "p90": 0.3,
+      "p99": 2.2,
+      "max": 217.168952,
+      "mean": 0.4
+    },
+    "burstiness_per_sec": {
+      "cv": 2.269,
+      "fano": 13.2,
+      "peak_to_mean": 26.11
+    },
+    "io_ratio_p50": 113.0
+  },
+  "BurstGPT": {
+    "source": "https://github.com/HPMLL/BurstGPT",
+    "trace_type": "direct (real arrivals+token counts+session)",
+    "n_requests": 1404294,
+    "span_seconds": 5269968.0,
+    "span_days": 61.0,
+    "mean_rate_per_s": 0.266,
+    "input_tokens_Request": {
+      "n": 1404294,
+      "min": 7.0,
+      "p10": 76.0,
+      "p50": 262.0,
+      "p90": 1824.0,
+      "p99": 3389.0,
+      "max": 29665.0,
+      "mean": 621.6
+    },
+    "output_tokens_Response": {
+      "n": 1404294,
+      "min": 1.0,
+      "p10": 3.0,
+      "p50": 36.0,
+      "p90": 276.0,
+      "p99": 1505.1,
+      "max": 7315.0,
+      "mean": 125.5
+    },
+    "inter_arrival_s": {
+      "n": 1404293,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 1.0,
+      "p90": 4.0,
+      "p99": 54.0,
+      "max": 15240.0,
+      "mean": 3.8
+    },
+    "burstiness_per_sec": {
+      "cv": 1.048,
+      "fano": 2.01,
+      "peak_to_mean": 19.67
+    },
+    "models": {
+      "ChatGPT": 1189167,
+      "GPT-4": 215127
+    },
+    "log_types": {
+      "Conversation log": 145707,
+      "API log": 1258587
+    },
+    "io_ratio_p50": 7.28
+  },
+  "Mooncake-conversation": {
+    "source": "https://github.com/kvcache-ai/Mooncake",
+    "trace_type": "direct (arrivals+tokens+PREFIX hash_ids)",
+    "n_requests": 12031,
+    "span_ms": 3536999,
+    "unique_prefix_blocks": 182790,
+    "total_block_refs": 288500,
+    "input_length": {
+      "n": 12031,
+      "min": 891.0,
+      "p10": 964.0,
+      "p50": 6909.0,
+      "p90": 27367.0,
+      "p99": 85400.4,
+      "max": 126195.0,
+      "mean": 12035.1
+    },
+    "output_length": {
+      "n": 12031,
+      "min": 1.0,
+      "p10": 24.0,
+      "p50": 350.0,
+      "p90": 597.0,
+      "p99": 1118.5,
+      "max": 2000.0,
+      "mean": 342.6
+    },
+    "prefix_blocks_per_req": {
+      "n": 12031,
+      "min": 2.0,
+      "p10": 2.0,
+      "p50": 14.0,
+      "p90": 54.0,
+      "p99": 167.0,
+      "max": 247.0,
+      "mean": 24.0
+    },
+    "inter_arrival_s": {
+      "n": 12030,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p99": 3.0,
+      "max": 3.003,
+      "mean": 0.3
+    },
+    "burstiness_per_sec": {
+      "cv": 0.328,
+      "fano": 1.1,
+      "peak_to_mean": 2.75
+    },
+    "prefix_cache_hit_ratio_proxy": 0.366,
+    "pct_blocks_reused": 24.2
+  },
+  "Mooncake-toolagent": {
+    "source": "https://github.com/kvcache-ai/Mooncake",
+    "trace_type": "direct (arrivals+tokens+PREFIX hash_ids)",
+    "n_requests": 23608,
+    "span_ms": 3536999,
+    "unique_prefix_blocks": 183300,
+    "total_block_refs": 409616,
+    "input_length": {
+      "n": 23608,
+      "min": 891.0,
+      "p10": 1814.0,
+      "p50": 6346.0,
+      "p90": 16805.8,
+      "p99": 61660.8,
+      "max": 126195.0,
+      "mean": 8596.2
+    },
+    "output_length": {
+      "n": 23608,
+      "min": 1.0,
+      "p10": 3.0,
+      "p50": 30.0,
+      "p90": 507.0,
+      "p99": 897.9,
+      "max": 2000.0,
+      "mean": 182.1
+    },
+    "prefix_blocks_per_req": {
+      "n": 23608,
+      "min": 2.0,
+      "p10": 4.0,
+      "p50": 13.0,
+      "p90": 33.0,
+      "p99": 121.0,
+      "max": 247.0,
+      "mean": 17.4
+    },
+    "inter_arrival_s": {
+      "n": 23607,
+      "min": 0.0,
+      "p10": 0.0,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p99": 3.0,
+      "max": 3.003,
+      "mean": 0.1
+    },
+    "burstiness_per_sec": {
+      "cv": 0.28,
+      "fano": 1.57,
+      "peak_to_mean": 2.35
+    },
+    "prefix_cache_hit_ratio_proxy": 0.553,
+    "pct_blocks_reused": 21.5
+  },
+  "Azure-LMM-multimodal-2024": {
+    "source": "https://github.com/Azure/AzurePublicDataset",
+    "trace_type": "direct multimodal (arrivals+tokens+image count)",
+    "n_requests": 1000000,
+    "span_minutes": 10080.0,
+    "mean_rate_per_s": 1.653,
+    "input_tokens_ContextTokens": {
+      "n": 1000000,
+      "min": 0.0,
+      "p50": 1124.0,
+      "p90": 5828.0,
+      "p99": 35932.0,
+      "max": 148569.0,
+      "mean": 2911.0
+    },
+    "output_tokens_GeneratedTokens": {
+      "n": 1000000,
+      "min": 0.0,
+      "p50": 98.0,
+      "p90": 433.0,
+      "p99": 1066.0,
+      "max": 16384.0,
+      "mean": 186.6
+    },
+    "num_images": {
+      "n": 1000000,
+      "min": 0.0,
+      "p50": 0.5,
+      "p90": 9.0,
+      "p99": 484.0,
+      "max": 9409.0,
+      "mean": 14.3
+    },
+    "pct_requests_with_image": 50.0,
+    "inter_arrival_s": {
+      "n": 999999,
+      "min": 0.0,
+      "p50": 0.3,
+      "p90": 1.4,
+      "p99": 4.4,
+      "max": 38.928,
+      "mean": 0.6
+    },
+    "burstiness_per_sec": {
+      "cv": 1.033,
+      "fano": 1.76,
+      "peak_to_mean": 12.7
+    }
+  }
+}
